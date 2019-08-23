@@ -30,8 +30,13 @@ namespace InterfaceInCSharp
             Console.WriteLine("The marks of subject 2 is " + marks2);
         }
 
-
+        // Defining the interface Calculate method
+        public int Calculate()
+        {
+            return marks1 + marks2;
+        }
     }
+
     class Program
     {
         static void Main(string[] args)
