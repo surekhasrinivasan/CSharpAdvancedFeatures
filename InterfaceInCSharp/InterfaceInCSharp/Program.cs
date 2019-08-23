@@ -41,6 +41,17 @@ namespace InterfaceInCSharp
     {
         static void Main(string[] args)
         {
+            Student stud1 = new Student();
+
+            stud1.StudentName = "John";
+            stud1.StudentID = 1;
+            stud1.marks1 = 10;
+            stud1.marks2 = 20;
+
+            stud1.DisplayMarks();
+            Console.WriteLine("The Total marks is: " + stud1.Calculate());
+
+            Console.Read();
         }
     }
 }
