@@ -17,6 +17,13 @@ namespace InterfaceInCSharp
         int Calculate();
     }
 
+    public class Student : Marks
+    {
+        public int StudentID;
+        public string StudentName;
+        public int marks1, marks2;
+
+    }
     class Program
     {
         static void Main(string[] args)
