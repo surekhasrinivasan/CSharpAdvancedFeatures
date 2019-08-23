@@ -16,12 +16,20 @@ namespace InterfaceInCSharp
         void DisplayMarks();
         int Calculate();
     }
-
+    
     public class Student : Marks
     {
         public int StudentID;
         public string StudentName;
         public int marks1, marks2;
+
+        // Defining the interface DisplayMarks method 
+        public void DisplayMarks()
+        {
+            Console.WriteLine("The marks of subject 1 is " + marks1);
+            Console.WriteLine("The marks of subject 2 is " + marks2);
+        }
+
 
     }
     class Program
