@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace InterfaceInCSharp
 {
     // Program to demo Interface demo in csharp
-    
+
 
     //// Defining the interface
     //public interface Marks
@@ -16,7 +16,7 @@ namespace InterfaceInCSharp
     //    void DisplayMarks();
     //    int Calculate();
     //}
-    
+
     //public class Student : Marks
     //{
     //    public int StudentID;
@@ -56,4 +56,21 @@ namespace InterfaceInCSharp
     //}
 
     // Program to demo Multiple interfaces 
+
+    // Defining the multiple interfaces
+    public interface Marks
+    {
+        // Declaring the interface methods
+        void DisplayMarks();
+        int Calculate();
+    }
+
+    public interface Location
+    {
+        // Declaring the interface methods 
+        void InputCity(string city);
+        void DisplayCity();
+    }
+
+
 }
