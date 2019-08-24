@@ -88,20 +88,41 @@ namespace InterfaceInCSharp
         // Defining the interface DisplayCity method
         public void DisplayCity()
         {
-            Console.WriteLine("City is: " + city);
+            Console.WriteLine("City is : " + city);
         }
 
         // Defining the interface DisplayMarks method 
         public void DisplayMarks()
         {
-            Console.WriteLine("The marks of subject 1 is " + marks1);
-            Console.WriteLine("The marks of subject 2 is " + marks2);
+            Console.WriteLine("The marks of subject 1 is : " + marks1);
+            Console.WriteLine("The marks of subject 2 is : " + marks2);
         }
 
         // Defining the interface Calculate method
         public int Calculate()
         {
             return marks1 + marks2;
+        }
+
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                Student stud1 = new Student();
+
+                stud1.StudentName = "John";
+                stud1.StudentID = 1;
+                stud1.marks1 = 10;
+                stud1.marks2 = 20;
+
+                stud1.DisplayMarks();
+                Console.WriteLine("The Total marks is : " + stud1.Calculate());
+
+                stud1.InputCity("New York");
+                stud1.DisplayCity();
+
+                Console.Read();
+            }
         }
     }
 }
