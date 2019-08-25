@@ -150,4 +150,42 @@ namespace InterfaceInCSharp
         }
     }
 
+    public class Student : Marks
+    {
+        public int StudentID;
+        public string StudentName;
+
+        public int marks // read write instance property
+        {
+            get
+            {
+                return marks;
+            }
+            set
+            {
+                marks = value;
+            }
+        }
+        
+        public string Subject // read-write instance property
+        {
+            get
+            {
+                return Subject;
+            }
+            set
+            {
+                Subject = value;
+            }
+        }
+
+        public int SubjectID
+        {
+            get
+            {
+                return 1;
+            }            
+        }
+    }
+
 }
