@@ -128,4 +128,26 @@ namespace InterfaceInCSharp
 
     // Program to demo the use of properties in Interfaces
 
+    // Defining the Marks interface
+    public interface Marks
+    {
+        // Read write property
+        int marks
+        {
+            get;
+            set;
+        }
+        // Read write property
+        string Subject
+        {
+            get;
+            set;
+        }
+        // Read only property
+        int SubjectID
+        {
+            get;
+        }
+    }
+
 }
