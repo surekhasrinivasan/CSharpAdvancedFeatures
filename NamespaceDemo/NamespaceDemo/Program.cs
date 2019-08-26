@@ -35,6 +35,14 @@ namespace NamespaceDemo
     {
         static void Main(string[] args)
         {
+            // Using the namespaces
+            NameA.ClassA clsA = new NameA.ClassA();
+            clsA.FunctionA();
+
+            NameB.ClassB clsB = new NameB.ClassB();
+            clsB.FunctionA();
+
+            Console.Read();
         }
     }
 }
