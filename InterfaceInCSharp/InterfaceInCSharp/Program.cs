@@ -179,7 +179,7 @@ namespace InterfaceInCSharp
             }
         }
 
-        public int SubjectID
+        public int SubjectID // read-write instance property
         {
             get
             {
@@ -188,4 +188,24 @@ namespace InterfaceInCSharp
         }
     }
 
+    public class Program
+    {
+        // Main function
+        public static void Main(string[] args)
+        {
+            Student stud1 = new Student();
+
+            stud1.StudentID = 1;
+            stud1.StudentName = "John";
+
+            stud1.marks = 10;
+            stud1.Subject = "Subject1";
+
+            Console.WriteLine("The marks is " + stud1.marks);
+            Console.WriteLine("The Subject is " + stud1.Subject);
+            Console.WriteLine("The SubjectID is " + stud1.SubjectID);
+
+            Console.Read();
+        }
+    }
 }
