@@ -16,6 +16,17 @@ namespace NameA
     }
 }
 
+// Second namespace
+namespace NameB
+{
+    public class ClassB
+    {
+        public void FunctionA()
+        {
+            Console.WriteLine("This is namespace B");
+        }
+    }
+}
 
 // Program to demo the use of namespaces
 namespace NamespaceDemo
