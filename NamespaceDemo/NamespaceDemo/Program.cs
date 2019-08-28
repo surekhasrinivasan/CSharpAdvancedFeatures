@@ -48,3 +48,15 @@ using System.Threading.Tasks;
 //}
 
     // Program to showcase how to use the using clause for namespaces
+
+    // One namespace
+    namespace NameA
+    {
+        public class ClassA
+        {
+            public void FunctionA()
+            {
+                Console.WriteLine("This is namespace A");
+            }
+        }
+    }
