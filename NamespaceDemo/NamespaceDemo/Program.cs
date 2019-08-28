@@ -105,5 +105,16 @@ using System.Threading.Tasks;
                 Console.WriteLine("This is namespace A");
             }
         }
-
+        
+        // inner namespace
+        namespace NameB
+        {
+            public class ClassB
+            {
+                public void FunctionA()
+                {
+                    Console.WriteLine("This is namespace B");
+                }
+            }
+        }
     }
