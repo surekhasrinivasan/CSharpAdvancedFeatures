@@ -1,5 +1,5 @@
-﻿using NameA;
-using NameB;
+﻿//using NameA;
+//using NameB;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,46 +49,48 @@ using System.Threading.Tasks;
 //    }
 //}
 
-    // Program to showcase how to use the using clause for namespaces
+    //// Program to showcase how to use the using clause for namespaces
 
-    // One namespace
-    namespace NameA
-    {
-        public class ClassA
-        {
-            public void FunctionA()
-            {
-                Console.WriteLine("This is namespace A");
-            }
-        }
-    }
+    //// One namespace
+    //namespace NameA
+    //{
+    //    public class ClassA
+    //    {
+    //        public void FunctionA()
+    //        {
+    //            Console.WriteLine("This is namespace A");
+    //        }
+    //    }
+    //}
 
-    // Second namespace
-    namespace NameB
-    {
-        public class ClassB
-        {
-            public void FunctionA()
-            {
-                Console.WriteLine("This is namespace B");
-            }
-        }
-    }
+    //// Second namespace
+    //namespace NameB
+    //{
+    //    public class ClassB
+    //    {
+    //        public void FunctionA()
+    //        {
+    //            Console.WriteLine("This is namespace B");
+    //        }
+    //    }
+    //}
 
-    namespace Demo
-    {
-        class Program
-        {
-            static void Main(string[] args)
-            {
-                // Using the namespaces
-                ClassA clsA = new ClassA();
-                clsA.FunctionA();
+    //namespace Demo
+    //{
+    //    class Program
+    //    {
+    //        static void Main(string[] args)
+    //        {
+    //            // Using the namespaces
+    //            ClassA clsA = new ClassA();
+    //            clsA.FunctionA();
 
-                ClassB clsB = new ClassB();
-                clsB.FunctionA();
+    //            ClassB clsB = new ClassB();
+    //            clsB.FunctionA();
 
-                Console.Read();
-            }
-        }
-    }
+    //            Console.Read();
+    //        }
+    //    }
+    //}
+
+    // Program to show the way to use Nested Namespaces 
