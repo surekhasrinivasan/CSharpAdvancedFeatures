@@ -4,45 +4,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// One namespace
-namespace NameA
-{
-    public class ClassA
-    {
-        public void FunctionA()
-        {
-            Console.WriteLine("This is namespace A");
-        }
-    }
-}
+//// One namespace
+//namespace NameA
+//{
+//    public class ClassA
+//    {
+//        public void FunctionA()
+//        {
+//            Console.WriteLine("This is namespace A");
+//        }
+//    }
+//}
 
-// Second namespace
-namespace NameB
-{
-    public class ClassB
-    {
-        public void FunctionA()
-        {
-            Console.WriteLine("This is namespace B");
-        }
-    }
-}
+//// Second namespace
+//namespace NameB
+//{
+//    public class ClassB
+//    {
+//        public void FunctionA()
+//        {
+//            Console.WriteLine("This is namespace B");
+//        }
+//    }
+//}
 
-// Program to demo the use of namespaces
-namespace NamespaceDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Using the namespaces
-            NameA.ClassA clsA = new NameA.ClassA();
-            clsA.FunctionA();
+//// Program to demo the use of namespaces
+//namespace NamespaceDemo
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            // Using the namespaces
+//            NameA.ClassA clsA = new NameA.ClassA();
+//            clsA.FunctionA();
 
-            NameB.ClassB clsB = new NameB.ClassB();
-            clsB.FunctionA();
+//            NameB.ClassB clsB = new NameB.ClassB();
+//            clsB.FunctionA();
 
-            Console.Read();
-        }
-    }
-}
+//            Console.Read();
+//        }
+//    }
+//}
+
+    // Program to showcase how to use the using clause for namespaces
