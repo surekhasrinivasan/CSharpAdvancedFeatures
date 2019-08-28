@@ -118,3 +118,20 @@ using System.Threading.Tasks;
             }
         }
     }
+    
+    namespace Demo
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                NameA.ClassA clsA = new NameA.ClassA();
+                clsA.FunctionA();
+
+                NameA.NameB.ClassB clsB = new NameA.NameB.ClassB();
+                clsB.FunctionA();
+
+            Console.Read();
+            }
+        }
+    }
