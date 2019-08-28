@@ -94,3 +94,16 @@ using System.Threading.Tasks;
     //}
 
     // Program to show the way to use Nested Namespaces 
+
+    // One namespace 
+    namespace NameA
+    {
+        public class ClassA
+        {
+            public void FunctionA()
+            {
+                Console.WriteLine("This is namespace A");
+            }
+        }
+
+    }
