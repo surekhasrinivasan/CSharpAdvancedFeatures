@@ -60,3 +60,15 @@ using System.Threading.Tasks;
             }
         }
     }
+
+    // Second namespace
+    namespace NameB
+    {
+        public class ClassB
+        {
+            public void FunctionA()
+            {
+                Console.WriteLine("This is namespace B");
+            }
+        }
+    }
