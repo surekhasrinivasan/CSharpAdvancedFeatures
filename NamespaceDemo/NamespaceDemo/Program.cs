@@ -1,4 +1,6 @@
-﻿using System;
+﻿using NameA;
+using NameB;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -69,6 +71,24 @@ using System.Threading.Tasks;
             public void FunctionA()
             {
                 Console.WriteLine("This is namespace B");
+            }
+        }
+    }
+
+    namespace Demo
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                // Using the namespaces
+                ClassA clsA = new ClassA();
+                clsA.FunctionA();
+
+                ClassB clsB = new ClassB();
+                clsB.FunctionA();
+
+                Console.Read();
             }
         }
     }
