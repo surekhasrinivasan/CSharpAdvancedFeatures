@@ -18,7 +18,9 @@ namespace FileInputOutputOperationsDemo
             foreach(DriveInfo d in allDrives)
             {
                 Console.WriteLine("Drive {0}", d.Name);
+                Console.WriteLine("Drivetype: {0}", d.DriveType);
             }
+            Console.Read();
         }
     }
 }
