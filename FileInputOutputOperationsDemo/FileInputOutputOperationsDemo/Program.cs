@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ namespace FileInputOutputOperationsDemo
     {
         static void Main(string[] args)
         {
+            DriveInfo[] allDrives = DriveInfo.GetDrives();
         }
     }
 }
