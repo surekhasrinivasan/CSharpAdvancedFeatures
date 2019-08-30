@@ -7,20 +7,22 @@ using System.Threading.Tasks;
 
 namespace FileInputOutputOperationsDemo
 {
-    // Program shows how to use the DriveInfo class
+    //// Program shows how to use the DriveInfo class
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            DriveInfo[] allDrives = DriveInfo.GetDrives();
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        DriveInfo[] allDrives = DriveInfo.GetDrives();
 
-            foreach(DriveInfo d in allDrives)
-            {
-                Console.WriteLine("Drive {0}", d.Name);
-                Console.WriteLine("Drivetype: {0}", d.DriveType);
-            }
-            Console.Read();
-        }
-    }
+    //        foreach(DriveInfo d in allDrives)
+    //        {
+    //            Console.WriteLine("Drive {0}", d.Name);
+    //            Console.WriteLine("Drivetype: {0}", d.DriveType);
+    //        }
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows how to use the DirectoryInfo class
 }
