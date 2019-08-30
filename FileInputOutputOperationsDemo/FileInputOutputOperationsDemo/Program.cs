@@ -14,6 +14,11 @@ namespace FileInputOutputOperationsDemo
         static void Main(string[] args)
         {
             DriveInfo[] allDrives = DriveInfo.GetDrives();
+
+            foreach(DriveInfo d in allDrives)
+            {
+                Console.WriteLine("Drive {0}", d.Name);
+            }
         }
     }
 }
