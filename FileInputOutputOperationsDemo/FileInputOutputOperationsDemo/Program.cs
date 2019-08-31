@@ -30,6 +30,8 @@ namespace FileInputOutputOperationsDemo
         static void Main(string[] args)
         {
             DirectoryInfo di = new DirectoryInfo(@"C:\Project");
+            Console.WriteLine("Does the directory exist " + di.Exists);
+
         }
     }
 }
