@@ -31,7 +31,9 @@ namespace FileInputOutputOperationsDemo
         {
             DirectoryInfo di = new DirectoryInfo(@"C:\Project");
             Console.WriteLine("Does the directory exist " + di.Exists);
+            Console.WriteLine("The creation time of the directory is " + di.CreationTime);
 
+            Console.Read();
         }
     }
 }
