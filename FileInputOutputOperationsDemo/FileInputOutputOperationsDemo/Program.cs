@@ -25,4 +25,11 @@ namespace FileInputOutputOperationsDemo
     //}
 
     // Program shows how to use the DirectoryInfo class
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DirectoryInfo di = new DirectoryInfo(@"C:\Project");
+        }
+    }
 }
