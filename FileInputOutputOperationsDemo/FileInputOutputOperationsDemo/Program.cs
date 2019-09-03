@@ -24,16 +24,19 @@ namespace FileInputOutputOperationsDemo
     //    }
     //}
 
-    // Program shows how to use the DirectoryInfo class
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            DirectoryInfo di = new DirectoryInfo(@"C:\Project");
-            Console.WriteLine("Does the directory exist " + di.Exists);
-            Console.WriteLine("The creation time of the directory is " + di.CreationTime);
+    //// Program shows how to use the DirectoryInfo class
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        DirectoryInfo di = new DirectoryInfo(@"C:\Project");
+    //        Console.WriteLine("Does the directory exist " + di.Exists);
+    //        Console.WriteLine("The creation time of the directory is " + di.CreationTime);
 
-            Console.Read();
-        }
-    }
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program below showcases the way to use the FileInfo Class
+
 }
