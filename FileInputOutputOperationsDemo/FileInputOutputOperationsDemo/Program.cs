@@ -42,8 +42,11 @@ namespace FileInputOutputOperationsDemo
     {
         static void Main(string[] args)
         {
-            FileInfo fi = new FileInfo(@"C:\Hello.html");
-            Console.WriteLine("Does the file exist" + fi.Exists);
+            FileInfo fi = new FileInfo(@"C:\Surekha\Hello.html");
+            Console.WriteLine("Does the file exist: " + fi.Exists);
+            Console.WriteLine("The size of the file is: " + fi.CreationTime);
+            Console.WriteLine("The size of the file is: " + fi.Length);
+            Console.Read();
         }
     }
 }
