@@ -43,6 +43,7 @@ namespace FileInputOutputOperationsDemo
         static void Main(string[] args)
         {
             FileInfo fi = new FileInfo(@"C:\Hello.html");
+            Console.WriteLine("Does the file exist" + fi.Exists);
         }
     }
 }
