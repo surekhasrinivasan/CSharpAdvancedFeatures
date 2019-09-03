@@ -38,5 +38,11 @@ namespace FileInputOutputOperationsDemo
     //}
 
     // Program below showcases the way to use the FileInfo Class
-
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            FileInfo fi = new FileInfo(@"C:\Hello.html");
+        }
+    }
 }
