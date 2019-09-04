@@ -58,6 +58,16 @@ namespace FileInputOutputOperationsDemo
             // Opening the file in read only mode
             FileStream src = new FileStream(@"C:\Surekha\Hello.html", FileMode.Open, FileAccess.Read);
 
+            // Number of bytes in the file 
+            int numBytes = (int)src.Length;
+
+            // This will be used to get the number of bytes read
+            int i = 0;
+
+            // Storing the bytes in an array
+            byte[] bytes = new byte[src.Length];
+
+
         }
     }
 }
