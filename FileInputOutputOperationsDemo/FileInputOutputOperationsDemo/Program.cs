@@ -67,7 +67,13 @@ namespace FileInputOutputOperationsDemo
             // Storing the bytes in an array
             byte[] bytes = new byte[src.Length];
 
+            Console.WriteLine("Number of bytes in the file " + numBytes);
 
+            src.Read(bytes, i, numBytes);
+
+            string result = System.Text.Encoding.UTF8.GetString(bytes);
+            Console.WriteLine(result);
+            Console.Read();
         }
     }
 }
