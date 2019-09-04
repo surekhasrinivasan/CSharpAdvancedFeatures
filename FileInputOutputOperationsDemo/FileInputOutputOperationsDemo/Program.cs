@@ -50,30 +50,36 @@ namespace FileInputOutputOperationsDemo
     //    }
     //}
 
-    // Program used to showcase the way to use the FileStream class
+    //// Program used to showcase the way to use the FileStream class
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Opening the file in read only mode
+    //        FileStream src = new FileStream(@"C:\Surekha\Hello.html", FileMode.Open, FileAccess.Read);
+
+    //        // Number of bytes in the file 
+    //        int numBytes = (int)src.Length;
+
+    //        // This will be used to get the number of bytes read
+    //        int i = 0;
+
+    //        // Storing the bytes in an array
+    //        byte[] bytes = new byte[src.Length];
+
+    //        Console.WriteLine("Number of bytes in the file " + numBytes);
+
+    //        src.Read(bytes, i, numBytes);
+
+    //        string result = System.Text.Encoding.UTF8.GetString(bytes);
+    //        Console.WriteLine(result);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program used to showcase the way to use the FileStream class to write contents to a file 
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Opening the file in read only mode
-            FileStream src = new FileStream(@"C:\Surekha\Hello.html", FileMode.Open, FileAccess.Read);
 
-            // Number of bytes in the file 
-            int numBytes = (int)src.Length;
-
-            // This will be used to get the number of bytes read
-            int i = 0;
-
-            // Storing the bytes in an array
-            byte[] bytes = new byte[src.Length];
-
-            Console.WriteLine("Number of bytes in the file " + numBytes);
-
-            src.Read(bytes, i, numBytes);
-
-            string result = System.Text.Encoding.UTF8.GetString(bytes);
-            Console.WriteLine(result);
-            Console.Read();
-        }
     }
 }
