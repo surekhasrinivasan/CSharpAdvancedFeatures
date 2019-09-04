@@ -53,6 +53,11 @@ namespace FileInputOutputOperationsDemo
     // Program used to showcase the way to use the FileStream class
     class Program
     {
+        static void Main(string[] args)
+        {
+            // Opening the file in read only mode
+            FileStream src = new FileStream(@"C:\Surekha\Hello.html", FileMode.Open, FileAccess.Read);
 
+        }
     }
 }
