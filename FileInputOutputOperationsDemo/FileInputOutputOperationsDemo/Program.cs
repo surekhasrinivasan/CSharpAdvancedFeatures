@@ -37,16 +37,22 @@ namespace FileInputOutputOperationsDemo
     //    }
     //}
 
-    // Program below showcases the way to use the FileInfo Class
+    //// Program below showcases the way to use the FileInfo Class
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        FileInfo fi = new FileInfo(@"C:\Surekha\Hello.html");
+    //        Console.WriteLine("Does the file exist: " + fi.Exists);
+    //        Console.WriteLine("The size of the file is: " + fi.CreationTime);
+    //        Console.WriteLine("The size of the file is: " + fi.Length);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program used to showcase the way to use the FileStream class
     class Program
     {
-        static void Main(string[] args)
-        {
-            FileInfo fi = new FileInfo(@"C:\Surekha\Hello.html");
-            Console.WriteLine("Does the file exist: " + fi.Exists);
-            Console.WriteLine("The size of the file is: " + fi.CreationTime);
-            Console.WriteLine("The size of the file is: " + fi.Length);
-            Console.Read();
-        }
+
     }
 }
