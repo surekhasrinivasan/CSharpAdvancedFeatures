@@ -77,25 +77,31 @@ namespace FileInputOutputOperationsDemo
     //    }
     //}
 
-    // Program used to showcase the way to use the FileStream class to write contents to a file 
+    //// Program used to showcase the way to use the FileStream class to write contents to a file 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Opening the file in read only mode 
+    //        FileStream src = new FileStream(@"C:\Surekha\newHello.txt", FileMode.Open, FileAccess.Write);
+
+    //        string str = "Hello World";
+
+    //        // Converting the string to bytes to write 
+    //        byte[] bytes = new byte[str.Length];
+    //        bytes = System.Text.Encoding.UTF8.GetBytes(str);
+
+    //        // This will be used to store the number of bytes written to the file 
+    //        int i = 0;
+
+    //        src.Write(bytes, 0, str.Length);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program used to showcase the way to use the StreamReader class
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Opening the file in read only mode 
-            FileStream src = new FileStream(@"C:\Surekha\newHello.txt", FileMode.Open, FileAccess.Write);
 
-            string str = "Hello World";
-
-            // Converting the string to bytes to write 
-            byte[] bytes = new byte[str.Length];
-            bytes = System.Text.Encoding.UTF8.GetBytes(str);
-
-            // This will be used to store the number of bytes written to the file 
-            int i = 0;
-
-            src.Write(bytes, 0, str.Length);
-            Console.Read();
-        }
     }
 }
