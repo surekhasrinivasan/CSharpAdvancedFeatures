@@ -109,6 +109,7 @@ namespace FileInputOutputOperationsDemo
 
             // Displaying the first line of the file 
             Console.WriteLine(src.ReadLine());
+            Console.Read();
         }
     }
 }
