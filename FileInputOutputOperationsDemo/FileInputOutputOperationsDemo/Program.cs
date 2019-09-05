@@ -85,6 +85,12 @@ namespace FileInputOutputOperationsDemo
             // Opening the file in read only mode 
             FileStream src = new FileStream(@"C:\Surekha\newHello.txt", FileMode.Open, FileAccess.Write);
 
+            string str = "Hello World";
+
+            // Converting the string to bytes to write 
+            byte[] bytes = new byte[str.Length];
+            bytes = System.Text.Encoding.UTF8.GetBytes(str);
+
         }
     }
 }
