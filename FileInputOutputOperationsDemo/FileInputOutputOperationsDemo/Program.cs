@@ -91,6 +91,11 @@ namespace FileInputOutputOperationsDemo
             byte[] bytes = new byte[str.Length];
             bytes = System.Text.Encoding.UTF8.GetBytes(str);
 
+            // This will be used to store the number of bytes written to the file 
+            int i = 0;
+
+            src.Write(bytes, 0, str.Length);
+            Console.Read();
         }
     }
 }
