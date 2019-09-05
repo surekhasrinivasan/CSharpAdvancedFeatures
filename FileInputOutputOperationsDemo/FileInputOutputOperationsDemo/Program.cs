@@ -80,6 +80,11 @@ namespace FileInputOutputOperationsDemo
     // Program used to showcase the way to use the FileStream class to write contents to a file 
     class Program
     {
+        static void Main(string[] args)
+        {
+            // Opening the file in read only mode 
+            FileStream src = new FileStream(@"C:\Surekha\newHello.txt", FileMode.Open, FileAccess.Write);
 
+        }
     }
 }
