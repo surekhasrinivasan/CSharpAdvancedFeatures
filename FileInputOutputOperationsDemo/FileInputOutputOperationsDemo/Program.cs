@@ -123,6 +123,7 @@ namespace FileInputOutputOperationsDemo
 
             // Displaying all the contents of the file 
             Console.WriteLine(src.ReadToEnd());
+            Console.Read();
         }
     }
 }
