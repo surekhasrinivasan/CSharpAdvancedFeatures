@@ -99,17 +99,23 @@ namespace FileInputOutputOperationsDemo
     //    }
     //}
 
-    // Program used to showcase the way to use the StreamReader class
+    //// Program used to showcase the way to use the StreamReader class
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Opening the file in read only mode 
+    //        StreamReader src = new StreamReader(@"C:\Surekha\newHello.html");
+
+    //        // Displaying the first line of the file 
+    //        Console.WriteLine(src.ReadLine());
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows how to use the StreamReader class with the ReadtoEnd Function
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Opening the file in read only mode 
-            StreamReader src = new StreamReader(@"C:\Surekha\newHello.html");
 
-            // Displaying the first line of the file 
-            Console.WriteLine(src.ReadLine());
-            Console.Read();
-        }
     }
 }
