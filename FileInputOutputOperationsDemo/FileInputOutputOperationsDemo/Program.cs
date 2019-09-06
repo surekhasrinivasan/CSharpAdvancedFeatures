@@ -121,6 +121,8 @@ namespace FileInputOutputOperationsDemo
             // Opening the file in read only mode 
             StreamReader src = new StreamReader(@"C:\Surekha\newHello.html");
 
+            // Displaying all the contents of the file 
+            Console.WriteLine(src.ReadToEnd());
         }
     }
 }
