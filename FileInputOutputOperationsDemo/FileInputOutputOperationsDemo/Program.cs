@@ -133,7 +133,10 @@ namespace FileInputOutputOperationsDemo
         static void Main(string[] args)
         {
             // Opening the file in append mode 
-            StreamWriter src = new StreamWriter(@"C:\Surekha\newHello.html");
+            StreamWriter src = new StreamWriter(@"C:\Surekha\newFile.html");
+
+            // writing the contents to the file 
+            src.WriteLine("Hello Happy World");
         }
     }
 }
