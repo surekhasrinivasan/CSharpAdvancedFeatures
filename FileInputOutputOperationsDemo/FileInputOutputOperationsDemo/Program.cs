@@ -137,6 +137,7 @@ namespace FileInputOutputOperationsDemo
 
             // writing the contents to the file 
             src.WriteLine("Hello Happy World");
+            Console.Read();
         }
     }
 }
