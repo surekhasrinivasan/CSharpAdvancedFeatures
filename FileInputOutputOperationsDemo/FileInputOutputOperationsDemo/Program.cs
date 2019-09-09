@@ -149,6 +149,9 @@ namespace FileInputOutputOperationsDemo
             // Opening the file in append mode 
             StreamWriter src = new StreamWriter(@"C:\Surekha\newHello.html", true);
 
+            // Writing the contents to the file 
+            src.WriteLine("Hello Surekha");
+
         }
     }
 }
