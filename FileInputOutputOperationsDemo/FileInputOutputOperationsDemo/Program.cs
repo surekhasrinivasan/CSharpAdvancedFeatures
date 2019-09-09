@@ -127,17 +127,23 @@ namespace FileInputOutputOperationsDemo
     //    }
     //}
 
-    // Program shows the way to use the StreamWriter class
+    //// Program shows the way to use the StreamWriter class
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Opening the file in append mode 
+    //        StreamWriter src = new StreamWriter(@"C:\Surekha\newFile.html");
+
+    //        // writing the contents to the file 
+    //        src.WriteLine("Hello Happy World");
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows how to use the StreamWriter class to append data
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Opening the file in append mode 
-            StreamWriter src = new StreamWriter(@"C:\Surekha\newFile.html");
 
-            // writing the contents to the file 
-            src.WriteLine("Hello Happy World");
-            Console.Read();
-        }
     }
 }
