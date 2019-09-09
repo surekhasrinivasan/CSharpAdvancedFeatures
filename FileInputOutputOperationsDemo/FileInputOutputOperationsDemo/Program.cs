@@ -151,7 +151,7 @@ namespace FileInputOutputOperationsDemo
 
             // Writing the contents to the file 
             src.WriteLine("Hello Surekha");
-
+            Console.Read();
         }
     }
 }
