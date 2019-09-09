@@ -144,6 +144,11 @@ namespace FileInputOutputOperationsDemo
     // Program shows how to use the StreamWriter class to append data
     class Program
     {
+        static void Main(string[] args)
+        {
+            // Opening the file in append mode 
+            StreamWriter src = new StreamWriter(@"C:\Surekha\newHello.html", true);
 
+        }
     }
 }
