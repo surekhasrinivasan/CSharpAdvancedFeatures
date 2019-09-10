@@ -184,6 +184,15 @@ namespace FileInputOutputOperationsDemo
         {
             // Building the string
             System.Text.StringBuilder stringToRead = new System.Text.StringBuilder();
+
+            stringToRead.AppendLine("Hello");
+            stringToRead.AppendLine("World");
+            stringToRead.AppendLine("again");
+
+            // Using String Reader
+            StringReader reader = new StringReader(stringToRead.ToString());
+
+
         }
     }
 }
