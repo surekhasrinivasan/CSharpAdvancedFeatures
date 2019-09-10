@@ -166,6 +166,14 @@ namespace FileInputOutputOperationsDemo
             stringToRead.AppendLine("Hello");
             stringToRead.AppendLine("World");
             stringToRead.AppendLine("again");
+
+            // Using String Reader
+            StringReader reader = new StringReader(stringToRead.ToString());
+
+            // Reading a line from the string
+            string txt = reader.ReadLine();
+            Console.WriteLine(txt);
+            Console.Read();
         }
     }
 }
