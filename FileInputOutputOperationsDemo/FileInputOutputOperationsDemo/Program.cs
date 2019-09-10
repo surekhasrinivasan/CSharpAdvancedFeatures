@@ -180,6 +180,10 @@ namespace FileInputOutputOperationsDemo
     // Program shows how to use StringReader class with ReadToEnd function 
     class Program
     {
-
+        static void main(string[] args)
+        {
+            // Building the string
+            System.Text.StringBuilder stringToRead = new System.Text.StringBuilder();
+        }
     }
 }
