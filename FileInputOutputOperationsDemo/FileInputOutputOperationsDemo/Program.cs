@@ -158,6 +158,10 @@ namespace FileInputOutputOperationsDemo
     // Program shows the way to use the StringReader Class
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Building the string
+            System.Text.StringBuilder stringToRead = new System.Text.StringBuilder();
+        }
     }
 }
