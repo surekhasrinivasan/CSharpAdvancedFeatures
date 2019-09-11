@@ -177,25 +177,31 @@ namespace FileInputOutputOperationsDemo
     //    }
     //}
 
-    // Program shows how to use StringReader class with ReadToEnd function 
+    //// Program shows how to use StringReader class with ReadToEnd function 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Building the string
+    //        System.Text.StringBuilder stringToRead = new System.Text.StringBuilder();
+
+    //        stringToRead.AppendLine("Hello");
+    //        stringToRead.AppendLine("World");
+    //        stringToRead.AppendLine("again");
+
+    //        // Using String Reader
+    //        StringReader reader = new StringReader(stringToRead.ToString());
+
+    //        // Reading a line from the string 
+    //        string txt = reader.ReadToEnd();
+    //        Console.WriteLine(txt);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program showcases the way to use the StringWriter class
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Building the string
-            System.Text.StringBuilder stringToRead = new System.Text.StringBuilder();
 
-            stringToRead.AppendLine("Hello");
-            stringToRead.AppendLine("World");
-            stringToRead.AppendLine("again");
-
-            // Using String Reader
-            StringReader reader = new StringReader(stringToRead.ToString());
-
-            // Reading a line from the string 
-            string txt = reader.ReadToEnd();
-            Console.WriteLine(txt);
-            Console.Read();
-        }
     }
 }
