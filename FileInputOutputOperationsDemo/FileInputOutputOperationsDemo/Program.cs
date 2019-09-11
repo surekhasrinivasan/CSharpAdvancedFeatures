@@ -207,7 +207,10 @@ namespace FileInputOutputOperationsDemo
             // Using StringWriter class
             StringWriter stringWriter = new StringWriter();
 
-
+            // Writing strings to StringWriter
+            stringWriter.WriteLine("Hello");
+            stringWriter.WriteLine("World");
+            stringWriter.WriteLine("Again");
         }
     }
 }
