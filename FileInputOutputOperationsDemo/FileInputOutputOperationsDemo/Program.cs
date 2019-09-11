@@ -202,6 +202,12 @@ namespace FileInputOutputOperationsDemo
     // Program showcases the way to use the StringWriter class
     class Program
     {
+        static void Main(string[] args)
+        {
+            // Using StringWriter class
+            StringWriter stringWriter = new StringWriter();
 
+
+        }
     }
 }
