@@ -211,6 +211,10 @@ namespace FileInputOutputOperationsDemo
             stringWriter.WriteLine("Hello");
             stringWriter.WriteLine("World");
             stringWriter.WriteLine("Again");
+
+            // Writing the string to the console
+            Console.WriteLine(stringWriter.ToString());
+            Console.Read();
         }
     }
 }
