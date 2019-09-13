@@ -13,6 +13,12 @@ namespace ExceptionHandling
         {
             int[] i = new int[2];
 
+            // Placing the code in the try block 
+            try
+            {
+                // We are placing invalid code 
+                i[3] = 3;
+            }
         }
     }
 }
