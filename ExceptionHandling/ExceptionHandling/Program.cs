@@ -39,8 +39,14 @@ namespace ExceptionHandling
             try
             {
                 // placing invalid code
-                i[3] = 3;
+                i[3] = 3;               
             }
+            // Here is where we catch the exception and display the error message
+            catch(System.IndexOutOfRangeException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.Read();
         }
     }
 }
