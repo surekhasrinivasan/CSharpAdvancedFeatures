@@ -19,6 +19,12 @@ namespace ExceptionHandling
                 // We are placing invalid code 
                 i[3] = 3;
             }
+            // Here is where we catch the exception and display the error message 
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.Read();
         }
     }
 }
