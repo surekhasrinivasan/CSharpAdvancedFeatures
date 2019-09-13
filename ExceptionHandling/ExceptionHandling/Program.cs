@@ -11,6 +11,8 @@ namespace ExceptionHandling
     {
         static void Main(string[] args)
         {
+            int[] i = new int[2];
+
         }
     }
 }
