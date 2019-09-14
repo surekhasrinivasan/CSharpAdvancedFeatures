@@ -63,6 +63,16 @@ namespace ExceptionHandling
                 // Placing the code in the try block
                 i[3] = 3;
             }
+            // Here is where we catch the exception and display the error message 
+            catch(System.IO.IOException ex1)
+            {
+                Console.WriteLine(ex1.Message);
+            }
+            catch(System.IndexOutOfRangeException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.Read();         
         }
     }
 }
