@@ -56,6 +56,13 @@ namespace ExceptionHandling
         static void Main(string[] args)
         {
             int[] i = new int[2];
+
+            // Placing the code in the try block
+            try
+            {
+                // Placing the code in the try block
+                i[3] = 3;
+            }
         }
     }
 }
