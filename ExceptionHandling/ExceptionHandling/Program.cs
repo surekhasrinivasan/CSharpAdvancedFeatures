@@ -53,6 +53,9 @@ namespace ExceptionHandling
     // Program shows the way to use multiple catch blocks 
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            int[] i = new int[2];
+        }
     }
 }
