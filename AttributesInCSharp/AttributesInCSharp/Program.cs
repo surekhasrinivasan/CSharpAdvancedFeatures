@@ -11,7 +11,17 @@ namespace AttributesInCSharp
     public class TypeAttribute : System.Attribute
     {
         public readonly string Type;
-
+        public string Subject // Topic is a named parameter
+        {
+            get
+            {
+                return Subject;
+            }
+            set
+            {
+                Subject = value;
+            }
+        }
     }
 
     class Program
