@@ -52,6 +52,15 @@ namespace AttributesInCSharp
     // Program shows another way to use attributes in c#
     class Program
     {
+        public class CustomAttribute : Attribute
+        {
+            // Private fields 
+            private string name;
 
+            public CustomAttribute(string name)
+            {
+                this.name = name;
+            }
+        }
     }
 }
