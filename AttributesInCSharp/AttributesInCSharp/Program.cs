@@ -22,6 +22,24 @@ namespace AttributesInCSharp
                 Subject = value;
             }
         }
+
+        public TypeAttribute(string type)  // type is a positional parameter
+        {
+            this.Type = type;
+        }
+    }
+
+    [TypeAttribute("Student")]
+    class Person
+    {
+        public int ID;
+        public string name;
+
+        void Display()
+        {
+            Console.WriteLine("The ID of the student is " + ID);
+            Console.WriteLine("The Name of the student is " + name);
+        }
     }
 
     class Program
