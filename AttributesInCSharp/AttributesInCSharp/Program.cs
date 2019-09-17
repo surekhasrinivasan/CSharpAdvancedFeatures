@@ -81,6 +81,26 @@ namespace AttributesInCSharp
             Console.WriteLine("The ID of the student is "+ ID);
             Console.WriteLine("The Name of the student is " + name);
         }
-    }    
+    }
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Type t = typeof(Person);
+            CustomAttribute MyAttribute = (CustomAttribute)Attribute.GetCustomAttribute(t, typeof(CustomAttribute));
+
+            if (MyAttribute == null)
+            {
+                Console.WriteLine("The attribute was not found");
+            }
+            else
+            {
+                // Get the Name value
+                Console.WriteLine("The Name Attribute is " + MyAttribute.Name);
+            }
+            Console.ReadKey();
+        }
+    }
 }
 
