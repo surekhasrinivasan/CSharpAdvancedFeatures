@@ -19,6 +19,13 @@ namespace PropertiesInCsharp
             ID = pid;
             name = pname;
         }
+
+        // Method used to display the value of ID and name 
+        public void Display()
+        {
+            Console.WriteLine("The ID of the student is " + ID);
+            Console.WriteLine("The name of the student is " + name);
+        }
     }
     class Program
     {
