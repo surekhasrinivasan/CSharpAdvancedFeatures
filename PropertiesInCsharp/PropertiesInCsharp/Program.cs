@@ -27,10 +27,15 @@ namespace PropertiesInCsharp
             Console.WriteLine("The name of the student is " + name);
         }
     }
+
     class Program
     {
         static void Main(string[] args)
         {
+            Student s1 = new Student();
+            s1.Input(10, "John");
+            s1.Display();
+            Console.Read();
         }
     }
 }
