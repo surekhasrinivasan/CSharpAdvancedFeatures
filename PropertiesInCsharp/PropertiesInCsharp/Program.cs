@@ -13,6 +13,12 @@ namespace PropertiesInCsharp
         private int ID;
         private string name;
 
+        // Method used to input the value of ID and name 
+        public void Input(int pid, string pname)
+        {
+            ID = pid;
+            name = pname;
+        }
     }
     class Program
     {
