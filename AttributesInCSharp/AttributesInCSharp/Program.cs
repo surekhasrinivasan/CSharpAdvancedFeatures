@@ -50,17 +50,37 @@ namespace AttributesInCSharp
     //}
 
     // Program shows another way to use attributes in c#
-    class Program
+   
+    public class CustomAttribute : Attribute
     {
-        public class CustomAttribute : Attribute
-        {
-            // Private fields 
-            private string name;
+        // Private fields 
+        private string name;
 
-            public CustomAttribute(string name)
-            {
-                this.name = name;
-            }
+        public CustomAttribute(string name)
+        {
+            this.name = name;
+        }
+
+        // Define Name property
+        // This is a read-only attribute
+
+        public virtual string Name
+        {
+            get { return name; }
         }
     }
+
+    [Custom("John")]
+    class Person
+    {
+        public int ID;
+        public string name;
+
+        void Display()
+        {
+            Console.WriteLine("The ID of the student is "+ ID);
+            Console.WriteLine("The Name of the student is " + name);
+        }
+    }    
 }
+
