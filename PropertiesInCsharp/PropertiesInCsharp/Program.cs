@@ -40,6 +40,12 @@ namespace PropertiesInCsharp
     //}
 
     // Program shows how to use properties in a class
+    class Student
+    {
+        // Defining the members
+        private int ID;
+        private string name;
+    }
     class Program
     {
 
