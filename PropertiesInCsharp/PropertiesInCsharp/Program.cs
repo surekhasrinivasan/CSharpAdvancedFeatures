@@ -43,9 +43,36 @@ namespace PropertiesInCsharp
     class Student
     {
         // Defining the members
-        private int ID;
+        private int id;
         private string name;
+
+        // Defining the properties
+        public int ID
+        {
+            get
+            {
+                return id;
+            }
+            set
+            {
+                id = value;
+            }
+        }
+
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
     }
+
+
     class Program
     {
 
