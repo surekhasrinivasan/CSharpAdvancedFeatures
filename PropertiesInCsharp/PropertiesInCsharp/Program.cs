@@ -139,6 +139,15 @@ namespace PropertiesInCsharp
 
     class Program
     {
+        static void Main(string[] args)
+        {
+            Student stud1 = new Student();
+            stud1.ID = 1;
+            stud1.Name = "Tom";
 
+            Console.WriteLine("The ID of the student is " + stud1.ID);
+            Console.WriteLine("The name of the student is " + stud1.Name);
+            Console.Read();
+        }
     }
 }
