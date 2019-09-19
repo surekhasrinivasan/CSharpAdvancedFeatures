@@ -101,6 +101,42 @@ namespace PropertiesInCsharp
             set;
         }
     }
+
+    class Student : Person
+    {
+        // Defining the members 
+        private int id;
+        private string name;
+
+        // Defining the properties 
+        // 
+        // In order to ensure that the derived class uses the abstract class 
+        // properties we need to mention the 'override' keyword with the property
+        public override int ID
+        {
+            get
+            {
+                return id;
+            }
+            set
+            {
+                id = value;
+            }
+        }
+
+        public override string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
+    }
+
     class Program
     {
 
