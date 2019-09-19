@@ -39,50 +39,56 @@ namespace PropertiesInCsharp
     //    }
     //}
 
-    // Program shows how to use properties in a class
-    class Student
-    {
-        // Defining the members
-        private int id;
-        private string name;
+    //// Program shows how to use properties in a class
+    //class Student
+    //{
+    //    // Defining the members
+    //    private int id;
+    //    private string name;
 
-        // Defining the properties
-        public int ID
-        {
-            get
-            {
-                return id;
-            }
-            set
-            {
-                id = value;
-            }
-        }
+    //    // Defining the properties
+    //    public int ID
+    //    {
+    //        get
+    //        {
+    //            return id;
+    //        }
+    //        set
+    //        {
+    //            id = value;
+    //        }
+    //    }
 
-        public string Name
-        {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                name = value;
-            }
-        }
-    }
+    //    public string Name
+    //    {
+    //        get
+    //        {
+    //            return name;
+    //        }
+    //        set
+    //        {
+    //            name = value;
+    //        }
+    //    }
+    //}
 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Student stud1 = new Student();
+    //        stud1.ID = 1;
+    //        stud1.Name = "George";
+
+    //        Console.WriteLine("The ID of the student is " + stud1.ID);
+    //        Console.WriteLine("The name of the student is " + stud1.Name);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows the way to use properties in an abstract class
     class Program
     {
-        static void Main(string[] args)
-        {
-            Student stud1 = new Student();
-            stud1.ID = 1;
-            stud1.Name = "George";
 
-            Console.WriteLine("The ID of the student is " + stud1.ID);
-            Console.WriteLine("The name of the student is " + stud1.Name);
-            Console.Read();
-        }
     }
 }
