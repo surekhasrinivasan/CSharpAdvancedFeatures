@@ -87,6 +87,20 @@ namespace PropertiesInCsharp
     //}
 
     // Program shows the way to use properties in an abstract class
+    public abstract class Person
+    {
+        public abstract int ID
+        {
+            get;
+            set;
+        }
+
+        public abstract string Name
+        {
+            get;
+            set;
+        }
+    }
     class Program
     {
 
