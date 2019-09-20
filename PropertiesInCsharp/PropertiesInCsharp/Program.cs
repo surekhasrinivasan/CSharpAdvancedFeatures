@@ -152,6 +152,14 @@ namespace PropertiesInCsharp
     //}
 
     // Program below showcases how to use read only properties 
+    class Student
+    {
+        // Defining the members 
+        private int id;
+        private string name;
+        private int subjectID = 1;
+
+    }
     class Program
     {
 
