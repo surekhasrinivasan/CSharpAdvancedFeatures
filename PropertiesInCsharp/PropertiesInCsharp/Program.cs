@@ -160,6 +160,9 @@ namespace PropertiesInCsharp
         private int subjectID = 1;
 
         // Defining a read only property
+
+        // If we want the property to only be read-only property, then we need to ensure
+        // that the 'setter' is not present for that property. 
         public int SubjectID
         {
             get
