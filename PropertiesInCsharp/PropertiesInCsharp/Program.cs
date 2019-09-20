@@ -86,68 +86,74 @@ namespace PropertiesInCsharp
     //    }
     //}
 
-    // Program shows the way to use properties in an abstract class
-    public abstract class Person
-    {
-        public abstract int ID
-        {
-            get;
-            set;
-        }
+    //// Program shows the way to use properties in an abstract class
+    //public abstract class Person
+    //{
+    //    public abstract int ID
+    //    {
+    //        get;
+    //        set;
+    //    }
 
-        public abstract string Name
-        {
-            get;
-            set;
-        }
-    }
+    //    public abstract string Name
+    //    {
+    //        get;
+    //        set;
+    //    }
+    //}
 
-    class Student : Person
-    {
-        // Defining the members 
-        private int id;
-        private string name;
+    //class Student : Person
+    //{
+    //    // Defining the members 
+    //    private int id;
+    //    private string name;
 
-        // Defining the properties 
-        // 
-        // In order to ensure that the derived class uses the abstract class 
-        // properties we need to mention the 'override' keyword with the property
-        public override int ID
-        {
-            get
-            {
-                return id;
-            }
-            set
-            {
-                id = value;
-            }
-        }
+    //    // Defining the properties 
+    //    // 
+    //    // In order to ensure that the derived class uses the abstract class 
+    //    // properties we need to mention the 'override' keyword with the property
+    //    public override int ID
+    //    {
+    //        get
+    //        {
+    //            return id;
+    //        }
+    //        set
+    //        {
+    //            id = value;
+    //        }
+    //    }
 
-        public override string Name
-        {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                name = value;
-            }
-        }
-    }
+    //    public override string Name
+    //    {
+    //        get
+    //        {
+    //            return name;
+    //        }
+    //        set
+    //        {
+    //            name = value;
+    //        }
+    //    }
+    //}
 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Student stud1 = new Student();
+    //        stud1.ID = 1;
+    //        stud1.Name = "Tom";
+
+    //        Console.WriteLine("The ID of the student is " + stud1.ID);
+    //        Console.WriteLine("The name of the student is " + stud1.Name);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program below showcases how to use read only properties 
     class Program
     {
-        static void Main(string[] args)
-        {
-            Student stud1 = new Student();
-            stud1.ID = 1;
-            stud1.Name = "Tom";
 
-            Console.WriteLine("The ID of the student is " + stud1.ID);
-            Console.WriteLine("The name of the student is " + stud1.Name);
-            Console.Read();
-        }
     }
 }
