@@ -159,7 +159,40 @@ namespace PropertiesInCsharp
         private string name;
         private int subjectID = 1;
 
+        // Defining a read only property
+        public int SubjectID
+        {
+            get
+            {
+                return subjectID;
+            }
+        }
+
+        public int ID
+        {
+            get
+            {
+                return id;
+            }
+            set
+            {
+                id = value;
+            }
+        }
+
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
     }
+
     class Program
     {
 
