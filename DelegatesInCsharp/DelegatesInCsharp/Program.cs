@@ -10,7 +10,7 @@ namespace DelegatesInCsharp
     class Program
     {
         // This is the method which will be pointed to by the delegate function 
-        public void Display()
+        public static void Display()
         {
             Console.WriteLine("Hello Happy World!!");
         }
@@ -20,6 +20,12 @@ namespace DelegatesInCsharp
 
         static void Main(string[] args)
         {
+            // Assigning the method to the delegate
+            Del handler = Display;
+
+            // Calling the method via the delegate
+            handler();
+            Console.Read();
         }
     }
 }
