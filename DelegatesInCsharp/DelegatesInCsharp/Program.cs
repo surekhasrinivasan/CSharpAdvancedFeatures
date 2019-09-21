@@ -9,6 +9,12 @@ namespace DelegatesInCsharp
     // Program is used to show the way to use a delegate
     class Program
     {
+        // This is the method which will be pointed to by the delegate function 
+        public void Display()
+        {
+            Console.WriteLine("Hello Happy World!!");
+        }
+
         static void Main(string[] args)
         {
         }
