@@ -15,6 +15,9 @@ namespace DelegatesInCsharp
             Console.WriteLine("Hello Happy World!!");
         }
 
+        // Defining the delegate
+        public delegate void Del();
+
         static void Main(string[] args)
         {
         }
