@@ -42,5 +42,9 @@ namespace DelegatesInCsharp
         {
             Console.WriteLine("Hello World again");
         }
+
+        // Defining the delegate
+        public delegate void Del();
+
     }
 }
