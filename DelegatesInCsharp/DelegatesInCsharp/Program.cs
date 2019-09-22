@@ -32,6 +32,15 @@ namespace DelegatesInCsharp
     // Program shows how to use Delegate with multiple methods 
     class Program
     {
+        // This is the method which will be pointed to by the delegate function 
+        public static void DisplayA()
+        {
+            Console.WriteLine("Hello World!!");
+        }
 
+        public static void DisplayB()
+        {
+            Console.WriteLine("Hello World again");
+        }
     }
 }
