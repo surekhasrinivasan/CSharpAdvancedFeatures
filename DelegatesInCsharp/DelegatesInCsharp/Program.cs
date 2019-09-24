@@ -78,5 +78,10 @@ namespace DelegatesInCsharp
         {
             Console.WriteLine("The integer value is " + j);
         }
+
+        // Defining the delegate
+        public delegate void Del(int i);
+
+
     }
 }
