@@ -82,6 +82,22 @@ namespace DelegatesInCsharp
         // Defining the delegate
         public delegate void Del(int i);
 
+        // Main function 
+        static void Main(string[] args)
+        {
+            // Assigning the method to the delegate 
+            Del handler = DisplayA;
 
+            // Calling the method via the delegate 
+            handler(1);
+
+            // Assigning the method to the delegate 
+            handler = DisplayB;
+
+            // Calling the method via the delegate
+            handler(2);
+
+            Console.Read();
+        }
     }
 }
