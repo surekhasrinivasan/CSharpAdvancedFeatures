@@ -102,6 +102,14 @@ namespace DelegatesInCsharp
     //}
 
     // Program shows the way to use a delegate with class objects 
+    class Student
+    {
+        // Defining the members 
+        private int id;
+        private string name;
+        private int subjectID = 1;
+
+    }
     class Program
     {
 
