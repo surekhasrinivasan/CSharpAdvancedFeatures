@@ -68,6 +68,15 @@ namespace DelegatesInCsharp
     // Program shows the way to use a delegate with parameters 
     class Program
     {
-        
+        // This is the method which will be pointed to by the delegate function
+        public static void DisplayA(int i)
+        {
+            Console.WriteLine("The integer value is " + i);
+        }
+
+        public static void DisplayB(int j)
+        {
+            Console.WriteLine("The integer value is " + j);
+        }
     }
 }
