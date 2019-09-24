@@ -65,39 +65,45 @@ namespace DelegatesInCsharp
     //    }
     //}
 
-    // Program shows the way to use a delegate with parameters 
+    //// Program shows the way to use a delegate with parameters 
+    //class Program
+    //{
+    //    // This is the method which will be pointed to by the delegate function
+    //    public static void DisplayA(int i)
+    //    {
+    //        Console.WriteLine("The integer value is " + i);
+    //    }
+
+    //    public static void DisplayB(int j)
+    //    {
+    //        Console.WriteLine("The integer value is " + j);
+    //    }
+
+    //    // Defining the delegate
+    //    public delegate void Del(int i);
+
+    //    // Main function 
+    //    static void Main(string[] args)
+    //    {
+    //        // Assigning the method to the delegate 
+    //        Del handler = DisplayA;
+
+    //        // Calling the method via the delegate 
+    //        handler(1);
+
+    //        // Assigning the method to the delegate 
+    //        handler = DisplayB;
+
+    //        // Calling the method via the delegate
+    //        handler(2);
+
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows the way to use a delegate with class objects 
     class Program
     {
-        // This is the method which will be pointed to by the delegate function
-        public static void DisplayA(int i)
-        {
-            Console.WriteLine("The integer value is " + i);
-        }
 
-        public static void DisplayB(int j)
-        {
-            Console.WriteLine("The integer value is " + j);
-        }
-
-        // Defining the delegate
-        public delegate void Del(int i);
-
-        // Main function 
-        static void Main(string[] args)
-        {
-            // Assigning the method to the delegate 
-            Del handler = DisplayA;
-
-            // Calling the method via the delegate 
-            handler(1);
-
-            // Assigning the method to the delegate 
-            handler = DisplayB;
-
-            // Calling the method via the delegate
-            handler(2);
-
-            Console.Read();
-        }
     }
 }
