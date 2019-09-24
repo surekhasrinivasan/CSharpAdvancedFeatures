@@ -142,9 +142,33 @@ namespace DelegatesInCsharp
                 name = value;
             }
         }
+
+        public void Display()
+        {
+            Console.WriteLine("The ID is " + id);
+            Console.WriteLine("The name is " + name);
+        }
     }
+
     class Program
     {
+        // Defining the delegate 
+        public delegate void Del();
 
+        // main function 
+        static void Main(string[] args)
+        {
+            Student s1 = new Student();
+            s1.ID = 1;
+            s1.Name = "Rob";
+
+            // Assigning the method to the delegate 
+            Del handler = s1.Display;
+
+            // Calling the method via the delegate 
+            handler();
+
+            Console.Read();
+        }
     }
 }
