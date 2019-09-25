@@ -26,6 +26,13 @@ namespace ReflectionInCsharp
     {
         static void Main(string[] args)
         {
+            Student stud1 = new Student();
+
+            // Trying to get the type of object 
+            Type myTypeObj = stud1.GetType();
+
+            Console.WriteLine("The object is of Type " + myTypeObj);
+            Console.Read();
         }
     }
 }
