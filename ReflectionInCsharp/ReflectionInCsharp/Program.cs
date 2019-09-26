@@ -37,6 +37,19 @@ namespace ReflectionInCsharp
     //}
 
     // Program shows the way to use MethodInfo
+    class Student
+    {
+        // Defining the members 
+        public int id;
+        public string name;
+
+        public void Display()
+        {
+            Console.WriteLine("The ID is " + id);
+            Console.WriteLine("The name is " + name);
+        }
+    }
+
     class Program
     {
 
