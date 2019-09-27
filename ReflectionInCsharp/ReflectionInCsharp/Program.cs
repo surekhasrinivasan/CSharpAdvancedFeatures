@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -52,7 +53,21 @@ namespace ReflectionInCsharp
 
     class Program
     {
+        static void Main(string[] args)
+        {
+            Student s1 = new Student();
 
+            // Trying to get the type of object 
+            Type myTypeObj = s1.GetType();
+
+            Console.WriteLine("The object is of Type" + myTypeObj);
+
+            // Using reflection to get information about the Display method 
+            MethodInfo myMethodInfo = myTypeObj.GetMethod("Display");
+
+            Console.WriteLine("Is the method a static method " + myMethodInfo.IsStatic);
+            Console.Read();
+        }
     }
 }
 
