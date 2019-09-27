@@ -38,6 +38,8 @@ namespace ReflectionInCsharp
     //}
 
     // Program shows the way to use MethodInfo
+
+    // This reflection method can be used to get information about a method within a class. 
     class Student
     {
         // Defining the members 
