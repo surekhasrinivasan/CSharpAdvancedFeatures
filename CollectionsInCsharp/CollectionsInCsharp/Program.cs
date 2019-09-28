@@ -31,6 +31,10 @@ namespace CollectionsInCsharp
     // Program shows the way to use array lists of strings 
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the ArrayList
+            ArrayList ar1 = new ArrayList();
+        }
     }
 }
