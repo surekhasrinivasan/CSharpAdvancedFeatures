@@ -43,6 +43,13 @@ namespace CollectionsInCsharp
             ar1.Add("Again");
 
 
+            // Displaying the elements of the array
+            Console.WriteLine("The first element of the array is : " + ar1[0]);
+            Console.WriteLine("The second element of the array is : " + ar1[1]);
+            Console.WriteLine("The third element of the array is : " + ar1[2]);
+            Console.WriteLine("The fourth element of the array is : " + ar1[3]);
+            
+            Console.Read();
         }
     }
 }
