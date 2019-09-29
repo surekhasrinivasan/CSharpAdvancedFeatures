@@ -56,6 +56,11 @@ namespace CollectionsInCsharp
     // Program to show how to use count property. 
     class Program
     {
-
+        // Main function
+        static void Main(string[] args)
+        {
+            // Defining the ArrayList
+            ArrayList arrayList = new ArrayList();
+        }
     }
 }
