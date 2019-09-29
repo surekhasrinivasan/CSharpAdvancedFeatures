@@ -69,6 +69,10 @@ namespace CollectionsInCsharp
             arrayList.Add(4);
             arrayList.Add(5);
 
+            // Displaying the size of the array list or the count of elements in the array list 
+            Console.WriteLine("The size of the array list is : " + arrayList.Count);
+
+            Console.Read();
         }
     }
 }
