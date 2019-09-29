@@ -28,28 +28,34 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program shows the way to use array lists of strings 
+    //// Program shows the way to use array lists of strings 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the ArrayList
+    //        ArrayList ar1 = new ArrayList();
+
+    //        // Adding elements to the array list 
+    //        ar1.Add("Hello");
+    //        ar1.Add("Happy");
+    //        ar1.Add("World");
+    //        ar1.Add("Again");
+
+
+    //        // Displaying the elements of the array
+    //        Console.WriteLine("The first element of the array is : " + ar1[0]);
+    //        Console.WriteLine("The second element of the array is : " + ar1[1]);
+    //        Console.WriteLine("The third element of the array is : " + ar1[2]);
+    //        Console.WriteLine("The fourth element of the array is : " + ar1[3]);
+            
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to show how to use count property. 
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the ArrayList
-            ArrayList ar1 = new ArrayList();
 
-            // Adding elements to the array list 
-            ar1.Add("Hello");
-            ar1.Add("Happy");
-            ar1.Add("World");
-            ar1.Add("Again");
-
-
-            // Displaying the elements of the array
-            Console.WriteLine("The first element of the array is : " + ar1[0]);
-            Console.WriteLine("The second element of the array is : " + ar1[1]);
-            Console.WriteLine("The third element of the array is : " + ar1[2]);
-            Console.WriteLine("The fourth element of the array is : " + ar1[3]);
-            
-            Console.Read();
-        }
     }
 }
