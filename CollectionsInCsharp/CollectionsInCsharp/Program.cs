@@ -88,6 +88,15 @@ namespace CollectionsInCsharp
             ar1.Add(1);
             ar1.Add(2);
             ar1.Add(3);
+
+            // Display the size of the array before using clear method
+            Console.WriteLine("The size of the array before clear method is : " + ar1.Count);
+
+            // Clearing all the elements of the array list 
+            ar1.Clear();
+
+            Console.WriteLine("The size of the array after clear method is : " + ar1.Count);
+            Console.Read();
         }
     }
 }
