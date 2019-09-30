@@ -53,26 +53,32 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to show how to use count property. 
+    //// Program to show how to use count property. 
+    //class Program
+    //{
+    //    // Main function
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the ArrayList
+    //        ArrayList arrayList = new ArrayList();
+
+    //        // Adding the elements to the array list 
+    //        arrayList.Add(1);
+    //        arrayList.Add(2);
+    //        arrayList.Add(3);
+    //        arrayList.Add(4);
+    //        arrayList.Add(5);
+
+    //        // Displaying the size of the array list or the count of elements in the array list 
+    //        Console.WriteLine("The size of the array list is : " + arrayList.Count);
+
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to show how to use clear method
     class Program
     {
-        // Main function
-        static void Main(string[] args)
-        {
-            // Defining the ArrayList
-            ArrayList arrayList = new ArrayList();
 
-            // Adding the elements to the array list 
-            arrayList.Add(1);
-            arrayList.Add(2);
-            arrayList.Add(3);
-            arrayList.Add(4);
-            arrayList.Add(5);
-
-            // Displaying the size of the array list or the count of elements in the array list 
-            Console.WriteLine("The size of the array list is : " + arrayList.Count);
-
-            Console.Read();
-        }
     }
 }
