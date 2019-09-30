@@ -79,6 +79,10 @@ namespace CollectionsInCsharp
     // Program to show how to use clear method
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the Array List
+            ArrayList ar1 = new ArrayList();
+        }
     }
 }
