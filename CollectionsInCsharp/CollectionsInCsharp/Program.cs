@@ -112,6 +112,10 @@ namespace CollectionsInCsharp
             ar.Add(1);
             ar.Add(2);
             ar.Add(3);
+
+            Console.WriteLine("Does the array contain the value 3 : " + ar.Contains(3));
+
+            Console.Read();
         }
     }
 }
