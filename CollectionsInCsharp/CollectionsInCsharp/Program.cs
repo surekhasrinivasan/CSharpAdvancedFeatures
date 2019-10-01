@@ -76,27 +76,33 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to show how to use clear method
+    //// Program to show how to use clear method
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Array List
+    //        ArrayList ar1 = new ArrayList();
+
+    //        // Adding the elements to array list 
+    //        ar1.Add(1);
+    //        ar1.Add(2);
+    //        ar1.Add(3);
+
+    //        // Display the size of the array before using clear method
+    //        Console.WriteLine("The size of the array before clear method is : " + ar1.Count);
+
+    //        // Clearing all the elements of the array list 
+    //        ar1.Clear();
+
+    //        Console.WriteLine("The size of the array after clear method is : " + ar1.Count);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows how to use contains method 
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Array List
-            ArrayList ar1 = new ArrayList();
 
-            // Adding the elements to array list 
-            ar1.Add(1);
-            ar1.Add(2);
-            ar1.Add(3);
-
-            // Display the size of the array before using clear method
-            Console.WriteLine("The size of the array before clear method is : " + ar1.Count);
-
-            // Clearing all the elements of the array list 
-            ar1.Clear();
-
-            Console.WriteLine("The size of the array after clear method is : " + ar1.Count);
-            Console.Read();
-        }
     }
 }
