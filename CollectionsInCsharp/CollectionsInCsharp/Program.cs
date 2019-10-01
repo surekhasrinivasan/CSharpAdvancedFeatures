@@ -103,6 +103,10 @@ namespace CollectionsInCsharp
     // Program shows how to use contains method 
     class Program
     {
-
+        static void Main(string[] argsf)
+        {
+            // Defining the Array List 
+            ArrayList ar = new ArrayList();
+        }
     }
 }
