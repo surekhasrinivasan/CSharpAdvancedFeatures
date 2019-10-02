@@ -100,22 +100,28 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program shows how to use contains method 
+    //// Program shows how to use contains method 
+    //class Program
+    //{
+    //    static void Main(string[] argsf)
+    //    {
+    //        // Defining the Array List 
+    //        ArrayList ar = new ArrayList();
+
+    //        // Adding the elements to the array list 
+    //        ar.Add(1);
+    //        ar.Add(2);
+    //        ar.Add(3);
+
+    //        Console.WriteLine("Does the array contain the value 3 : " + ar.Contains(3));
+
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows how to use IndexOfmethod
     class Program
     {
-        static void Main(string[] argsf)
-        {
-            // Defining the Array List 
-            ArrayList ar = new ArrayList();
 
-            // Adding the elements to the array list 
-            ar.Add(1);
-            ar.Add(2);
-            ar.Add(3);
-
-            Console.WriteLine("Does the array contain the value 3 : " + ar.Contains(3));
-
-            Console.Read();
-        }
     }
 }
