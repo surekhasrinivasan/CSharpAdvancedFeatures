@@ -128,9 +128,12 @@ namespace CollectionsInCsharp
             ArrayList ar1 = new ArrayList();
 
             // Adding elements to the array list
-            ar1.Add(10);
-            ar1.Add(20);
-            ar1.Add(30);
+            ar1.Add(1);
+            ar1.Add(2);
+            ar1.Add(3);
+
+            Console.WriteLine("The index of value 3 is " + ar1.IndexOf(3));
+            Console.Read();
         }
     }
 }
