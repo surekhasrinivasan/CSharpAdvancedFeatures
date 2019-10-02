@@ -122,6 +122,10 @@ namespace CollectionsInCsharp
     // Program shows how to use IndexOfmethod
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the ArrayList
+            ArrayList ar1 = new ArrayList();
+        }
     }
 }
