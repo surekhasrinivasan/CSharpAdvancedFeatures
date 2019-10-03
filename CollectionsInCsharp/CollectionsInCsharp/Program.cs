@@ -140,6 +140,10 @@ namespace CollectionsInCsharp
     // Program below showcases the insert method
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the ArrayList
+            ArrayList ar1 = new ArrayList();
+        }
     }
 }
