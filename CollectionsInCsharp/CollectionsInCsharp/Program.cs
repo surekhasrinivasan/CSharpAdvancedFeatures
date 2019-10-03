@@ -149,6 +149,15 @@ namespace CollectionsInCsharp
             ar1.Add(1);
             ar1.Add(2);
             ar1.Add(3);
+
+            Console.WriteLine("The index of value 3 is " + ar1.IndexOf(3));
+
+            // Inserting the value 4 at Index position 2
+            ar1.Insert(2, 4);
+
+            Console.WriteLine("The index of value 3 is " + ar1.IndexOf(3));
+
+            Console.Read();
         }
     }
 }
