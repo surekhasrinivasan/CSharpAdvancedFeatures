@@ -119,21 +119,27 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program shows how to use IndexOfmethod
+    //// Program shows how to use IndexOfmethod
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the ArrayList
+    //        ArrayList ar1 = new ArrayList();
+
+    //        // Adding elements to the array list
+    //        ar1.Add(1);
+    //        ar1.Add(2);
+    //        ar1.Add(3);
+
+    //        Console.WriteLine("The index of value 3 is " + ar1.IndexOf(3));
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program below showcases the insert method
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the ArrayList
-            ArrayList ar1 = new ArrayList();
 
-            // Adding elements to the array list
-            ar1.Add(1);
-            ar1.Add(2);
-            ar1.Add(3);
-
-            Console.WriteLine("The index of value 3 is " + ar1.IndexOf(3));
-            Console.Read();
-        }
     }
 }
