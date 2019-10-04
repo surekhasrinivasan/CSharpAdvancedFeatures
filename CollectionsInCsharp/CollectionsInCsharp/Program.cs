@@ -168,6 +168,11 @@ namespace CollectionsInCsharp
         {
             // Defining the array list
             ArrayList arrayList = new ArrayList();
+
+            // adding elements to array list
+            arrayList.Add(1);
+            arrayList.Add(2);
+            arrayList.Add(3);
         }
     }
 }
