@@ -164,6 +164,10 @@ namespace CollectionsInCsharp
     // Program shows the way to use Remove method
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the array list
+            ArrayList arrayList = new ArrayList();
+        }
     }
 }
