@@ -137,27 +137,33 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program below showcases the insert method
+    //// Program below showcases the insert method
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the ArrayList
+    //        ArrayList ar1 = new ArrayList();
+
+    //        // Adding elements to the array list
+    //        ar1.Add(1);
+    //        ar1.Add(2);
+    //        ar1.Add(3);
+
+    //        Console.WriteLine("The index of value 3 is " + ar1.IndexOf(3));
+
+    //        // Inserting the value 4 at Index position 2
+    //        ar1.Insert(2, 4);
+
+    //        Console.WriteLine("The index of value 3 is " + ar1.IndexOf(3));
+
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows the way to use Remove method
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the ArrayList
-            ArrayList ar1 = new ArrayList();
 
-            // Adding elements to the array list
-            ar1.Add(1);
-            ar1.Add(2);
-            ar1.Add(3);
-
-            Console.WriteLine("The index of value 3 is " + ar1.IndexOf(3));
-
-            // Inserting the value 4 at Index position 2
-            ar1.Insert(2, 4);
-
-            Console.WriteLine("The index of value 3 is " + ar1.IndexOf(3));
-
-            Console.Read();
-        }
     }
 }
