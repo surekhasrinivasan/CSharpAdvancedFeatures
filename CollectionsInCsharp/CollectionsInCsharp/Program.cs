@@ -188,6 +188,11 @@ namespace CollectionsInCsharp
     // Program shows the way to use RemoveAt method 
     class Program
     {
-        
+        static void Main(string[] args)
+        {
+            // Defining the array list 
+            ArrayList ar1 = new ArrayList();
+
+        }
     }
 }
