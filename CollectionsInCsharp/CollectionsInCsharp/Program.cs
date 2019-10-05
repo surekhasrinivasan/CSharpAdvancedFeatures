@@ -197,6 +197,14 @@ namespace CollectionsInCsharp
             ar1.Add(1);
             ar1.Add(2);
             ar1.Add(3);
+
+            Console.WriteLine("The value at position 1 is " + ar1[1]);
+
+            // Removing a value
+            ar1.RemoveAt(1);
+
+            Console.WriteLine("The value at position 1 is " + ar1[1]);
+            Console.Read();
         }
     }
 }
