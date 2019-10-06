@@ -215,6 +215,12 @@ namespace CollectionsInCsharp
         {
             // defining the array list 
             ArrayList ar1 = new ArrayList();
+
+            // Adding elements to the arraylist 
+            ar1.Add(1);
+            ar1.Add(2);
+            ar1.Add(3);
+
         }
     }
 }
