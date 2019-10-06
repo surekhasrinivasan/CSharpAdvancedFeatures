@@ -185,26 +185,32 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program shows the way to use RemoveAt method 
+    //// Program shows the way to use RemoveAt method 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the array list 
+    //        ArrayList ar1 = new ArrayList();
+
+    //        // Adding elements to the array list 
+    //        ar1.Add(1);
+    //        ar1.Add(2);
+    //        ar1.Add(3);
+
+    //        Console.WriteLine("The value at position 1 is " + ar1[1]);
+
+    //        // Removing a value
+    //        ar1.RemoveAt(1);
+
+    //        Console.WriteLine("The value at position 1 is " + ar1[1]);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program showcases the reverse method 
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the array list 
-            ArrayList ar1 = new ArrayList();
 
-            // Adding elements to the array list 
-            ar1.Add(1);
-            ar1.Add(2);
-            ar1.Add(3);
-
-            Console.WriteLine("The value at position 1 is " + ar1[1]);
-
-            // Removing a value
-            ar1.RemoveAt(1);
-
-            Console.WriteLine("The value at position 1 is " + ar1[1]);
-            Console.Read();
-        }
     }
 }
