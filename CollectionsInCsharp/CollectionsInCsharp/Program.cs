@@ -221,6 +221,21 @@ namespace CollectionsInCsharp
             ar1.Add(2);
             ar1.Add(3);
 
+            Console.WriteLine("Array before reverse method: ");
+            Console.WriteLine("The value at position 0 is " + ar1[0]);
+            Console.WriteLine("The value at position 1 is " + ar1[1]);
+            Console.WriteLine("The value at position 2 is " + ar1[2]);
+            Console.WriteLine();
+
+            // Reversing the list 
+            ar1.Reverse();
+            Console.WriteLine("Array after reverse method: ");
+
+            Console.WriteLine("The value at position 0 is " + ar1[0]);
+            Console.WriteLine("The value at position 1 is " + ar1[1]);
+            Console.WriteLine("The value at position 2 is " + ar1[2]);
+
+            Console.Read();
         }
     }
 }
