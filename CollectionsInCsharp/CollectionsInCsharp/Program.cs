@@ -208,34 +208,40 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program showcases the reverse method 
+    //// Program showcases the reverse method 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // defining the array list 
+    //        ArrayList ar1 = new ArrayList();
+
+    //        // Adding elements to the arraylist 
+    //        ar1.Add(1);
+    //        ar1.Add(2);
+    //        ar1.Add(3);
+
+    //        Console.WriteLine("Array before reverse method: ");
+    //        Console.WriteLine("The value at position 0 is " + ar1[0]);
+    //        Console.WriteLine("The value at position 1 is " + ar1[1]);
+    //        Console.WriteLine("The value at position 2 is " + ar1[2]);
+    //        Console.WriteLine();
+
+    //        // Reversing the list 
+    //        ar1.Reverse();
+    //        Console.WriteLine("Array after reverse method: ");
+
+    //        Console.WriteLine("The value at position 0 is " + ar1[0]);
+    //        Console.WriteLine("The value at position 1 is " + ar1[1]);
+    //        Console.WriteLine("The value at position 2 is " + ar1[2]);
+
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to showcase the sort method 
     class Program
     {
-        static void Main(string[] args)
-        {
-            // defining the array list 
-            ArrayList ar1 = new ArrayList();
 
-            // Adding elements to the arraylist 
-            ar1.Add(1);
-            ar1.Add(2);
-            ar1.Add(3);
-
-            Console.WriteLine("Array before reverse method: ");
-            Console.WriteLine("The value at position 0 is " + ar1[0]);
-            Console.WriteLine("The value at position 1 is " + ar1[1]);
-            Console.WriteLine("The value at position 2 is " + ar1[2]);
-            Console.WriteLine();
-
-            // Reversing the list 
-            ar1.Reverse();
-            Console.WriteLine("Array after reverse method: ");
-
-            Console.WriteLine("The value at position 0 is " + ar1[0]);
-            Console.WriteLine("The value at position 1 is " + ar1[1]);
-            Console.WriteLine("The value at position 2 is " + ar1[2]);
-
-            Console.Read();
-        }
     }
 }
