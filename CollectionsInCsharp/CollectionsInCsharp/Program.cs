@@ -242,6 +242,10 @@ namespace CollectionsInCsharp
     // Program to showcase the sort method 
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // defining the array list
+            ArrayList ar1 = new ArrayList();
+        }
     }
 }
