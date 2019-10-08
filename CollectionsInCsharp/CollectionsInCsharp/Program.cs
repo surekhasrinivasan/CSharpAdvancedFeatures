@@ -239,40 +239,46 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to showcase the sort method 
+    //// Program to showcase the sort method 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // defining the array list
+    //        ArrayList ar1 = new ArrayList();
+
+    //        // adding elements to the array list 
+    //        ar1.Add(5);
+    //        ar1.Add(2);
+    //        ar1.Add(3);
+    //        ar1.Add(4);
+    //        ar1.Add(1);   
+
+    //        Console.WriteLine("Array before sort method: ");
+    //        Console.WriteLine();
+    //        Console.WriteLine("The value at position 0 is " + ar1[0]);
+    //        Console.WriteLine("The value at position 1 is " + ar1[1]);
+    //        Console.WriteLine("The value at position 2 is " + ar1[2]);
+    //        Console.WriteLine("The value at position 3 is " + ar1[3]);
+    //        Console.WriteLine("The value at position 4 is " + ar1[4]);
+    //        Console.WriteLine();
+
+    //        ar1.Sort();
+
+    //        Console.WriteLine("Array after sort method: ");
+    //        Console.WriteLine();
+    //        Console.WriteLine("The value at position 0 is " + ar1[0]);
+    //        Console.WriteLine("The value at position 1 is " + ar1[1]);
+    //        Console.WriteLine("The value at position 2 is " + ar1[2]);
+    //        Console.WriteLine("The value at position 3 is " + ar1[3]);
+    //        Console.WriteLine("The value at position 4 is " + ar1[4]);
+    //        Console.WriteLine();
+    //    }
+    //}
+
+    // Program shows how to use GetRange method 
     class Program
     {
-        static void Main(string[] args)
-        {
-            // defining the array list
-            ArrayList ar1 = new ArrayList();
 
-            // adding elements to the array list 
-            ar1.Add(5);
-            ar1.Add(2);
-            ar1.Add(3);
-            ar1.Add(4);
-            ar1.Add(1);   
-
-            Console.WriteLine("Array before sort method: ");
-            Console.WriteLine();
-            Console.WriteLine("The value at position 0 is " + ar1[0]);
-            Console.WriteLine("The value at position 1 is " + ar1[1]);
-            Console.WriteLine("The value at position 2 is " + ar1[2]);
-            Console.WriteLine("The value at position 3 is " + ar1[3]);
-            Console.WriteLine("The value at position 4 is " + ar1[4]);
-            Console.WriteLine();
-
-            ar1.Sort();
-
-            Console.WriteLine("Array after sort method: ");
-            Console.WriteLine();
-            Console.WriteLine("The value at position 0 is " + ar1[0]);
-            Console.WriteLine("The value at position 1 is " + ar1[1]);
-            Console.WriteLine("The value at position 2 is " + ar1[2]);
-            Console.WriteLine("The value at position 3 is " + ar1[3]);
-            Console.WriteLine("The value at position 4 is " + ar1[4]);
-            Console.WriteLine();
-        }
     }
 }
