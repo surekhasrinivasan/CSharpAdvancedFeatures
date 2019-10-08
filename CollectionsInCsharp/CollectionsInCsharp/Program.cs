@@ -262,6 +262,17 @@ namespace CollectionsInCsharp
             Console.WriteLine("The value at position 3 is " + ar1[3]);
             Console.WriteLine("The value at position 4 is " + ar1[4]);
             Console.WriteLine();
+
+            ar1.Sort();
+
+            Console.WriteLine("Array after sort method: ");
+            Console.WriteLine();
+            Console.WriteLine("The value at position 0 is " + ar1[0]);
+            Console.WriteLine("The value at position 1 is " + ar1[1]);
+            Console.WriteLine("The value at position 2 is " + ar1[2]);
+            Console.WriteLine("The value at position 3 is " + ar1[3]);
+            Console.WriteLine("The value at position 4 is " + ar1[4]);
+            Console.WriteLine();
         }
     }
 }
