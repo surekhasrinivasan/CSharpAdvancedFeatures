@@ -279,6 +279,11 @@ namespace CollectionsInCsharp
     // Program shows how to use GetRange method 
     class Program
     {
+        static void Main(string[] args)
+        {
+            // defining the array list 
+            ArrayList arrayList = new ArrayList();
 
+        }
     }
 }
