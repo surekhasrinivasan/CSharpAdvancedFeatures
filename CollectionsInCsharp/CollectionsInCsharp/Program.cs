@@ -289,6 +289,15 @@ namespace CollectionsInCsharp
             arrayList.Add(2);
             arrayList.Add(3);
             arrayList.Add(4);
+
+            // creating a new array list
+            ArrayList ar1 = new ArrayList();
+            ar1 = arrayList.GetRange(0, 2);
+
+            Console.WriteLine("The value at position 0 is " + ar1[0]);
+            Console.WriteLine("The value at position 1 is " + ar1[1]);
+            Console.Read();
+
         }
     }
 }
