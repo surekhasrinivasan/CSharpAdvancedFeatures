@@ -304,6 +304,11 @@ namespace CollectionsInCsharp
     // Program showcases the way to use stacks
     class Program
     {
+        static void Main(string[] args)
+        {
+            // Defining the Stack
+            Stack ar = new Stack();
 
+        }
     }
 }
