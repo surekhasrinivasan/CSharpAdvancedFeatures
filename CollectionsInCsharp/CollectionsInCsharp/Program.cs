@@ -276,28 +276,34 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program shows how to use GetRange method 
+    //// Program shows how to use GetRange method 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // defining the array list 
+    //        ArrayList arrayList = new ArrayList();
+
+    //        // adding elements to the array list 
+    //        arrayList.Add(1);
+    //        arrayList.Add(2);
+    //        arrayList.Add(3);
+    //        arrayList.Add(4);
+
+    //        // creating a new array list
+    //        ArrayList ar1 = new ArrayList();
+    //        ar1 = arrayList.GetRange(0, 2);
+
+    //        Console.WriteLine("The value at position 0 is " + ar1[0]);
+    //        Console.WriteLine("The value at position 1 is " + ar1[1]);
+    //        Console.Read();
+
+    //    }
+    //}
+
+    // Program showcases the way to use stacks
     class Program
     {
-        static void Main(string[] args)
-        {
-            // defining the array list 
-            ArrayList arrayList = new ArrayList();
 
-            // adding elements to the array list 
-            arrayList.Add(1);
-            arrayList.Add(2);
-            arrayList.Add(3);
-            arrayList.Add(4);
-
-            // creating a new array list
-            ArrayList ar1 = new ArrayList();
-            ar1 = arrayList.GetRange(0, 2);
-
-            Console.WriteLine("The value at position 0 is " + ar1[0]);
-            Console.WriteLine("The value at position 1 is " + ar1[1]);
-            Console.Read();
-
-        }
     }
 }
