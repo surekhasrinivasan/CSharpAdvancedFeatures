@@ -314,6 +314,12 @@ namespace CollectionsInCsharp
             ar.Push(2);
             ar.Push(3);
 
+            // Displaying the elements 
+            Console.WriteLine("The first element is " + ar.Pop());
+            Console.WriteLine("The second element is " + ar.Pop());
+            Console.WriteLine("The third element is " + ar.Pop());
+
+            Console.Read();
         }
     }
 }
