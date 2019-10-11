@@ -359,6 +359,9 @@ namespace CollectionsInCsharp
             ar.Push(2);
             ar.Push(3);
 
+            Console.WriteLine("Popping an element from the stack " + ar.Pop());
+            Console.WriteLine("Popping an element from the stack " + ar.Pop());
+            Console.Read();
         }
     }
 }
