@@ -301,25 +301,31 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program showcases the way to use stacks
+    //// Program showcases the way to use stacks
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Stack
+    //        Stack ar = new Stack();
+
+    //        // Adding elements to the Stack
+    //        ar.Push(1);
+    //        ar.Push(2);
+    //        ar.Push(3);
+
+    //        // Displaying the elements 
+    //        Console.WriteLine("The first element is " + ar.Pop());
+    //        Console.WriteLine("The second element is " + ar.Pop());
+    //        Console.WriteLine("The third element is " + ar.Pop());
+
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to showcase the clear function 
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Stack
-            Stack ar = new Stack();
 
-            // Adding elements to the Stack
-            ar.Push(1);
-            ar.Push(2);
-            ar.Push(3);
-
-            // Displaying the elements 
-            Console.WriteLine("The first element is " + ar.Pop());
-            Console.WriteLine("The second element is " + ar.Pop());
-            Console.WriteLine("The third element is " + ar.Pop());
-
-            Console.Read();
-        }
     }
 }
