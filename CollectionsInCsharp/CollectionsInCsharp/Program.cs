@@ -336,7 +336,14 @@ namespace CollectionsInCsharp
             ar.Push(2);
             ar.Push(3);
 
+
             Console.WriteLine("The number of elements on the stack is " + ar.Count);
+                       
+            // Clearing the Stack
+            ar.Clear();
+
+            Console.WriteLine("The number of elements on the Stack is " + ar.Count);
+            Console.Read();
         }
     }
 }
