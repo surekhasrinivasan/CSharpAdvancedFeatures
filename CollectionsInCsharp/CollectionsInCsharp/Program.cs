@@ -330,6 +330,13 @@ namespace CollectionsInCsharp
         {
             // Defining the Stack
             Stack ar = new Stack();
+
+            // Adding elements to the stack 
+            ar.Push(1);
+            ar.Push(2);
+            ar.Push(3);
+
+            Console.WriteLine("The number of elements on the stack is " + ar.Count);
         }
     }
 }
