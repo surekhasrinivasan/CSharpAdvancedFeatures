@@ -323,27 +323,32 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to showcase the clear function 
+    //// Program to showcase the clear function 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Stack
+    //        Stack ar = new Stack();
+
+    //        // Adding elements to the stack 
+    //        ar.Push(1);
+    //        ar.Push(2);
+    //        ar.Push(3);
+            
+    //        Console.WriteLine("The number of elements on the stack is " + ar.Count);
+                       
+    //        // Clearing the Stack
+    //        ar.Clear();
+
+    //        Console.WriteLine("The number of elements on the Stack is " + ar.Count);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program showcase the way to use the pop function
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Stack
-            Stack ar = new Stack();
 
-            // Adding elements to the stack 
-            ar.Push(1);
-            ar.Push(2);
-            ar.Push(3);
-
-
-            Console.WriteLine("The number of elements on the stack is " + ar.Count);
-                       
-            // Clearing the Stack
-            ar.Clear();
-
-            Console.WriteLine("The number of elements on the Stack is " + ar.Count);
-            Console.Read();
-        }
     }
 }
