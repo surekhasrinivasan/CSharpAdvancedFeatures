@@ -368,6 +368,10 @@ namespace CollectionsInCsharp
     // Program showcase the way to use the peek function
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the Stack
+            Stack ar = new Stack();
+        }
     }
 }
