@@ -346,22 +346,28 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program showcase the way to use the pop function
+    //// Program showcase the way to use the pop function
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Stack
+    //        Stack ar = new Stack();
+
+    //        // Adding elements to the Stack
+    //        ar.Push(1);
+    //        ar.Push(2);
+    //        ar.Push(3);
+
+    //        Console.WriteLine("Popping an element from the stack " + ar.Pop());
+    //        Console.WriteLine("Popping an element from the stack " + ar.Pop());
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program showcase the way to use the peek function
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Stack
-            Stack ar = new Stack();
 
-            // Adding elements to the Stack
-            ar.Push(1);
-            ar.Push(2);
-            ar.Push(3);
-
-            Console.WriteLine("Popping an element from the stack " + ar.Pop());
-            Console.WriteLine("Popping an element from the stack " + ar.Pop());
-            Console.Read();
-        }
     }
 }
