@@ -377,6 +377,9 @@ namespace CollectionsInCsharp
             ar.Push(1);
             ar.Push(2);
             ar.Push(3);
+
+            Console.WriteLine("The element at the top of the stack is " + ar.Peek());
+            Console.Read();
         }
     }
 }
