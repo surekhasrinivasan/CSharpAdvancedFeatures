@@ -365,21 +365,27 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program showcase the way to use the peek function
+    //// Program showcase the way to use the peek function
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Stack
+    //        Stack ar = new Stack();
+
+    //        // adding elements to the stack 
+    //        ar.Push(1);
+    //        ar.Push(2);
+    //        ar.Push(3);
+
+    //        Console.WriteLine("The element at the top of the stack is " + ar.Peek());
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows the way to use ToArray Function 
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Stack
-            Stack ar = new Stack();
 
-            // adding elements to the stack 
-            ar.Push(1);
-            ar.Push(2);
-            ar.Push(3);
-
-            Console.WriteLine("The element at the top of the stack is " + ar.Peek());
-            Console.Read();
-        }
     }
 }
