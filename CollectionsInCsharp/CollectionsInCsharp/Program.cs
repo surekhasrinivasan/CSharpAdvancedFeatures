@@ -390,6 +390,11 @@ namespace CollectionsInCsharp
         {
             // Defining the Stack
             Stack ar = new Stack();
+
+            // adding elements to the stack 
+            ar.Push(1);
+            ar.Push(2);
+            ar.Push(3);
         }
     }
 }
