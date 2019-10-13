@@ -386,6 +386,10 @@ namespace CollectionsInCsharp
     // Program shows the way to use ToArray Function 
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the Stack
+            Stack ar = new Stack();
+        }
     }
 }
