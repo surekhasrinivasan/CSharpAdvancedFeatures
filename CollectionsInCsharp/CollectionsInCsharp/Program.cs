@@ -419,7 +419,10 @@ namespace CollectionsInCsharp
             ar.Push(1);
             ar.Push(2);
             ar.Push(3);
-
+            
+            // usage of Contains function
+            Console.WriteLine("Does Stack contains the element 2 ?" + ar.Contains(3));
+            Console.Read();
         }
     }
 }
