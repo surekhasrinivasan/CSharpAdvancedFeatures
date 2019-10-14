@@ -383,27 +383,33 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program shows the way to use ToArray Function 
+    //// Program shows the way to use ToArray Function 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Stack
+    //        Stack ar = new Stack();
+    //        object[] ar1 = new object[3];
+
+    //        // adding elements to the stack 
+    //        ar.Push(1);
+    //        ar.Push(2);
+    //        ar.Push(3);
+
+    //        // Transferring the elements to an array 
+    //        ar1 = ar.ToArray();
+
+    //        Console.WriteLine("The first element is " + ar1[0].ToString());
+    //        Console.WriteLine("The second element is " + ar1[1].ToString());
+    //        Console.WriteLine("The third element is " + ar1[2].ToString());
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to showcase the Contains function 
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Stack
-            Stack ar = new Stack();
-            object[] ar1 = new object[3];
 
-            // adding elements to the stack 
-            ar.Push(1);
-            ar.Push(2);
-            ar.Push(3);
-
-            // Transferring the elements to an array 
-            ar1 = ar.ToArray();
-
-            Console.WriteLine("The first element is " + ar1[0].ToString());
-            Console.WriteLine("The second element is " + ar1[1].ToString());
-            Console.WriteLine("The third element is " + ar1[2].ToString());
-            Console.Read();
-        }
     }
 }
