@@ -429,6 +429,10 @@ namespace CollectionsInCsharp
     // Program to showcase the way to use Queues
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the Queue
+            Queue ar = new Queue();
+        }
     }
 }
