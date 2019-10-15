@@ -407,22 +407,28 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to showcase the Contains function 
+    //// Program to showcase the Contains function 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Stack 
+    //        Stack ar = new Stack();
+
+    //        // adding elements to Stack 
+    //        ar.Push(1);
+    //        ar.Push(2);
+    //        ar.Push(3);
+            
+    //        // usage of Contains function
+    //        Console.WriteLine("Does Stack contains the element 2 ?" + ar.Contains(3));
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to showcase the way to use Queues
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Stack 
-            Stack ar = new Stack();
 
-            // adding elements to Stack 
-            ar.Push(1);
-            ar.Push(2);
-            ar.Push(3);
-            
-            // usage of Contains function
-            Console.WriteLine("Does Stack contains the element 2 ?" + ar.Contains(3));
-            Console.Read();
-        }
     }
 }
