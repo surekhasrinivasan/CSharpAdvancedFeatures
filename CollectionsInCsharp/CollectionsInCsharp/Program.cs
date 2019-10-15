@@ -433,6 +433,11 @@ namespace CollectionsInCsharp
         {
             // Defining the Queue
             Queue ar = new Queue();
+
+            // Adding elements to the Queue
+            ar.Enqueue(1);
+            ar.Enqueue(2);
+            ar.Enqueue(3);
         }
     }
 }
