@@ -438,6 +438,8 @@ namespace CollectionsInCsharp
             ar.Enqueue(1);
             ar.Enqueue(2);
             ar.Enqueue(3);
+
+            Console.Read();
         }
     }
 }
