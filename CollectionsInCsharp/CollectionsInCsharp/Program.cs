@@ -426,20 +426,26 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to showcase the way to use Queues
+    //// Program to showcase the way to use Queues
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Queue
+    //        Queue ar = new Queue();
+
+    //        // Adding elements to the Queue
+    //        ar.Enqueue(1);
+    //        ar.Enqueue(2);
+    //        ar.Enqueue(3);
+
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to showcase the Count property
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Queue
-            Queue ar = new Queue();
 
-            // Adding elements to the Queue
-            ar.Enqueue(1);
-            ar.Enqueue(2);
-            ar.Enqueue(3);
-
-            Console.Read();
-        }
     }
 }
