@@ -474,6 +474,11 @@ namespace CollectionsInCsharp
             ar.Enqueue(1);
             ar.Enqueue(2);
             ar.Enqueue(3);
+
+            Console.WriteLine("The first element out of the queue is " + ar.Dequeue());
+            Console.WriteLine("The second element out of the queue is " + ar.Dequeue());
+            Console.WriteLine("The third element out of the queue is " + ar.Dequeue());
+            Console.Read();
         }
     }
 }
