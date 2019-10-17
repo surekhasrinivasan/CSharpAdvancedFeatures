@@ -465,6 +465,10 @@ namespace CollectionsInCsharp
     // Program to show how to use the DeQueue function
     class Program
     {
-        
+        static void Main(string[] args)
+        {
+            // Defining the Queue
+            Queue ar = new Queue();
+        }
     }
 }
