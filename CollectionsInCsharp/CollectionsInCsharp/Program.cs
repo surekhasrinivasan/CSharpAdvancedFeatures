@@ -443,22 +443,28 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to showcase the Count property
+    //// Program to showcase the Count property
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Queue
+    //        Queue ar = new Queue();
+
+    //        // adding elements to the Queue
+    //        ar.Enqueue(1);
+    //        ar.Enqueue(2);
+    //        ar.Enqueue(3);
+    //        ar.Enqueue(4);
+
+    //        Console.WriteLine("The number of elements in the queue is " + ar.Count);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to show how to use the DeQueue function
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Queue
-            Queue ar = new Queue();
-
-            // adding elements to the Queue
-            ar.Enqueue(1);
-            ar.Enqueue(2);
-            ar.Enqueue(3);
-            ar.Enqueue(4);
-
-            Console.WriteLine("The number of elements in the queue is " + ar.Count);
-            Console.Read();
-        }
+        
     }
 }
