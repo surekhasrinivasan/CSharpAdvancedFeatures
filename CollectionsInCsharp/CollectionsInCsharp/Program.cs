@@ -462,23 +462,29 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to show how to use the DeQueue function
+    //// Program to show how to use the DeQueue function
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Queue
+    //        Queue ar = new Queue();
+
+    //        // adding elements to the queue
+    //        ar.Enqueue(1);
+    //        ar.Enqueue(2);
+    //        ar.Enqueue(3);
+
+    //        Console.WriteLine("The first element out of the queue is " + ar.Dequeue());
+    //        Console.WriteLine("The second element out of the queue is " + ar.Dequeue());
+    //        Console.WriteLine("The third element out of the queue is " + ar.Dequeue());
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to show how to use the clear function
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Queue
-            Queue ar = new Queue();
 
-            // adding elements to the queue
-            ar.Enqueue(1);
-            ar.Enqueue(2);
-            ar.Enqueue(3);
-
-            Console.WriteLine("The first element out of the queue is " + ar.Dequeue());
-            Console.WriteLine("The second element out of the queue is " + ar.Dequeue());
-            Console.WriteLine("The third element out of the queue is " + ar.Dequeue());
-            Console.Read();
-        }
     }
 }
