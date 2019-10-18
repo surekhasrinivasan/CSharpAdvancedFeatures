@@ -494,6 +494,14 @@ namespace CollectionsInCsharp
             ar.Enqueue(1);
             ar.Enqueue(2);
             ar.Enqueue(3);
+
+            Console.WriteLine("The number of elements in the Queue is " + ar.Count);
+
+            // Clearing the queue
+            ar.Clear();
+
+            Console.WriteLine("The number of elements in the Queue is " + ar.Count);
+            Console.Read();
         }
     }
 }
