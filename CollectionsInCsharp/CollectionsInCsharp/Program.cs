@@ -519,7 +519,8 @@ namespace CollectionsInCsharp
             ar.Enqueue(3);
             ar.Enqueue(4);
 
-
+            Console.WriteLine("Does the queue contain the element 2 " + ar.Contains(2));
+            Console.Read();
         }
     }
 }
