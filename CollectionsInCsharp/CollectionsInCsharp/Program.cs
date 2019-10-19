@@ -508,6 +508,10 @@ namespace CollectionsInCsharp
     // Program showcases the contains function in Queue
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the Queue
+            Queue ar = new Queue();
+        }
     }
 }
