@@ -482,26 +482,32 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to show how to use the clear function
+    //// Program to show how to use the clear function
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Queue
+    //        Queue ar = new Queue();
+
+    //        // Adding the elements to the queue
+    //        ar.Enqueue(1);
+    //        ar.Enqueue(2);
+    //        ar.Enqueue(3);
+
+    //        Console.WriteLine("The number of elements in the Queue is " + ar.Count);
+
+    //        // Clearing the queue
+    //        ar.Clear();
+
+    //        Console.WriteLine("The number of elements in the Queue is " + ar.Count);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program showcases the contains function in Queue
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Queue
-            Queue ar = new Queue();
 
-            // Adding the elements to the queue
-            ar.Enqueue(1);
-            ar.Enqueue(2);
-            ar.Enqueue(3);
-
-            Console.WriteLine("The number of elements in the Queue is " + ar.Count);
-
-            // Clearing the queue
-            ar.Clear();
-
-            Console.WriteLine("The number of elements in the Queue is " + ar.Count);
-            Console.Read();
-        }
     }
 }
