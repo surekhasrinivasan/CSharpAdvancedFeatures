@@ -505,22 +505,28 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program showcases the contains function in Queue
+    //// Program showcases the contains function in Queue
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Queue
+    //        Queue ar = new Queue();
+
+    //        // Adding the elements to the Queue
+    //        ar.Enqueue(1);
+    //        ar.Enqueue(2);
+    //        ar.Enqueue(3);
+    //        ar.Enqueue(4);
+
+    //        Console.WriteLine("Does the queue contain the element 2 " + ar.Contains(2));
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows how to use the ToArray function 
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Queue
-            Queue ar = new Queue();
 
-            // Adding the elements to the Queue
-            ar.Enqueue(1);
-            ar.Enqueue(2);
-            ar.Enqueue(3);
-            ar.Enqueue(4);
-
-            Console.WriteLine("Does the queue contain the element 2 " + ar.Contains(2));
-            Console.Read();
-        }
     }
 }
