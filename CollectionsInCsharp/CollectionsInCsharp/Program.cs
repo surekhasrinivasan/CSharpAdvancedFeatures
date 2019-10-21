@@ -524,26 +524,32 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program shows how to use the ToArray function 
+    //// Program shows how to use the ToArray function 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the Queue
+    //        Queue ar = new Queue();
+    //        Object[] ar1 = new Object[3];
+
+    //        // Adding elements to the Queue
+    //        ar.Enqueue(1);
+    //        ar.Enqueue(2);
+    //        ar.Enqueue(3);
+
+    //        ar1 = ar.ToArray();
+
+    //        Console.WriteLine("The first element of the array is " + ar1[0].ToString());
+    //        Console.WriteLine("The second element of the array is " + ar1[1].ToString());
+    //        Console.WriteLine("The third element of the array is " + ar1[2].ToString());
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows the way to use SortedList
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the Queue
-            Queue ar = new Queue();
-            Object[] ar1 = new Object[3];
 
-            // Adding elements to the Queue
-            ar.Enqueue(1);
-            ar.Enqueue(2);
-            ar.Enqueue(3);
-
-            ar1 = ar.ToArray();
-
-            Console.WriteLine("The first element of the array is " + ar1[0].ToString());
-            Console.WriteLine("The second element of the array is " + ar1[1].ToString());
-            Console.WriteLine("The third element of the array is " + ar1[2].ToString());
-            Console.Read();
-        }
     }
 }
