@@ -554,6 +554,11 @@ namespace CollectionsInCsharp
         {
             // Defining the SortedList
             SortedList ar = new SortedList();
+
+            // Adding elements to the SortedList
+            ar.Add(1, "One");
+            ar.Add(2, "Two");
+            ar.Add(3, "Three");
         }
     }
 }
