@@ -559,6 +559,12 @@ namespace CollectionsInCsharp
             ar.Add(1, "One");
             ar.Add(2, "Two");
             ar.Add(3, "Three");
+
+            // Displaying the values of each element in the SortedList
+            Console.WriteLine("The first value of the SortedList is " + ar[1].ToString());
+            Console.WriteLine("The second value of the SortedList is " + ar[2].ToString());
+            Console.WriteLine("The third value of the SortedList is " + ar[3].ToString());
+            Console.Read();
         }
     }
 }
