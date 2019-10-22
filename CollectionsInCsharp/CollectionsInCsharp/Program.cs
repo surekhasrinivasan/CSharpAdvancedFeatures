@@ -582,7 +582,9 @@ namespace CollectionsInCsharp
             ar.Add(3, "Three");
             ar.Add(4, "Four");
             ar.Add(5, "Five");
-        }
 
+            Console.WriteLine("The number of elements in the SortedList is " + ar.Count);
+            Console.Read();
+        }
     }
 }
