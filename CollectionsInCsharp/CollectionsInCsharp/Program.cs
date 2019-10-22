@@ -571,6 +571,11 @@ namespace CollectionsInCsharp
     // Program shows the way to use the count property in SortedList
     class Program
     {
+        static void Main(string[] args)
+        {
+            // Defining the SortedList
+            SortedList ar = new SortedList();            
+        }
 
     }
 }
