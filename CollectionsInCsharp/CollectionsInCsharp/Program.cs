@@ -48,7 +48,7 @@ namespace CollectionsInCsharp
     //        Console.WriteLine("The second element of the array is : " + ar1[1]);
     //        Console.WriteLine("The third element of the array is : " + ar1[2]);
     //        Console.WriteLine("The fourth element of the array is : " + ar1[3]);
-            
+
     //        Console.Read();
     //    }
     //}
@@ -335,9 +335,9 @@ namespace CollectionsInCsharp
     //        ar.Push(1);
     //        ar.Push(2);
     //        ar.Push(3);
-            
+
     //        Console.WriteLine("The number of elements on the stack is " + ar.Count);
-                       
+
     //        // Clearing the Stack
     //        ar.Clear();
 
@@ -419,7 +419,7 @@ namespace CollectionsInCsharp
     //        ar.Push(1);
     //        ar.Push(2);
     //        ar.Push(3);
-            
+
     //        // usage of Contains function
     //        Console.WriteLine("Does Stack contains the element 2 ?" + ar.Contains(3));
     //        Console.Read();
@@ -547,24 +547,30 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program shows the way to use SortedList
+    //// Program shows the way to use SortedList
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the SortedList
+    //        SortedList ar = new SortedList();
+
+    //        // Adding elements to the SortedList
+    //        ar.Add(1, "One");
+    //        ar.Add(2, "Two");
+    //        ar.Add(3, "Three");
+
+    //        // Displaying the values of each element in the SortedList
+    //        Console.WriteLine("The first value of the SortedList is " + ar[1].ToString());
+    //        Console.WriteLine("The second value of the SortedList is " + ar[2].ToString());
+    //        Console.WriteLine("The third value of the SortedList is " + ar[3].ToString());
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program shows the way to use the count property in SortedList
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the SortedList
-            SortedList ar = new SortedList();
 
-            // Adding elements to the SortedList
-            ar.Add(1, "One");
-            ar.Add(2, "Two");
-            ar.Add(3, "Three");
-
-            // Displaying the values of each element in the SortedList
-            Console.WriteLine("The first value of the SortedList is " + ar[1].ToString());
-            Console.WriteLine("The second value of the SortedList is " + ar[2].ToString());
-            Console.WriteLine("The third value of the SortedList is " + ar[3].ToString());
-            Console.Read();
-        }
     }
 }
