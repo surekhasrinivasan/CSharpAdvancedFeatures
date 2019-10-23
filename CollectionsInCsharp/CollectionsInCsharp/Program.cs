@@ -601,6 +601,14 @@ namespace CollectionsInCsharp
             ar.Add(2, "Two");
             ar.Add(3, "Three");
             ar.Add(4, "Four");
+
+            Console.WriteLine("The number of elements in the SortedList before clear method is " + ar.Count);
+
+            // Clearing all the elements of the List 
+            ar.Clear();
+
+            Console.WriteLine("The number of elements in the SortedList after clear method is " + ar.Count);
+            Console.Read();
         }
     }
 }
