@@ -568,23 +568,29 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program shows the way to use the count property in SortedList
+    //// Program shows the way to use the count property in SortedList
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the SortedList
+    //        SortedList ar = new SortedList();
+
+    //        // Adding elements to the SortedList
+    //        ar.Add(1, "One");
+    //        ar.Add(2, "Two");
+    //        ar.Add(3, "Three");
+    //        ar.Add(4, "Four");
+    //        ar.Add(5, "Five");
+
+    //        Console.WriteLine("The number of elements in the SortedList is " + ar.Count);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program showcases the clears function
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the SortedList
-            SortedList ar = new SortedList();
 
-            // Adding elements to the SortedList
-            ar.Add(1, "One");
-            ar.Add(2, "Two");
-            ar.Add(3, "Three");
-            ar.Add(4, "Four");
-            ar.Add(5, "Five");
-
-            Console.WriteLine("The number of elements in the SortedList is " + ar.Count);
-            Console.Read();
-        }
     }
 }
