@@ -588,27 +588,33 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program showcases the clears function
+    //// Program showcases the clears function
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the SortedList
+    //        SortedList ar = new SortedList();
+
+    //        // Adding elements to the SortedList
+    //        ar.Add(1, "One");
+    //        ar.Add(2, "Two");
+    //        ar.Add(3, "Three");
+    //        ar.Add(4, "Four");
+
+    //        Console.WriteLine("The number of elements in the SortedList before clear method is " + ar.Count);
+
+    //        // Clearing all the elements of the List 
+    //        ar.Clear();
+
+    //        Console.WriteLine("The number of elements in the SortedList after clear method is " + ar.Count);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to show how to use the ContainsKey function
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the SortedList
-            SortedList ar = new SortedList();
 
-            // Adding elements to the SortedList
-            ar.Add(1, "One");
-            ar.Add(2, "Two");
-            ar.Add(3, "Three");
-            ar.Add(4, "Four");
-
-            Console.WriteLine("The number of elements in the SortedList before clear method is " + ar.Count);
-
-            // Clearing all the elements of the List 
-            ar.Clear();
-
-            Console.WriteLine("The number of elements in the SortedList after clear method is " + ar.Count);
-            Console.Read();
-        }
     }
 }
