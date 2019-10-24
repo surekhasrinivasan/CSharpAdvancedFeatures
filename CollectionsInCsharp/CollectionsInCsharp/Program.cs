@@ -615,6 +615,10 @@ namespace CollectionsInCsharp
     // Program to show how to use the ContainsKey function
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the SortedList
+            SortedList ar = new SortedList();
+        }
     }
 }
