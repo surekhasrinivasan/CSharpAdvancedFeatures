@@ -624,6 +624,9 @@ namespace CollectionsInCsharp
             ar.Add(10, "Ten");
             ar.Add(20, "Twenty");
             ar.Add(30, "Thirty");
+
+            Console.WriteLine("Does the SortedList contain the key 30 " + ar.ContainsKey(30));
+            Console.Read();
         }
     }
 }
