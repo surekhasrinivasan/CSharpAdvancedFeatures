@@ -660,6 +660,9 @@ namespace CollectionsInCsharp
             ar.Add(1, "One");
             ar.Add(2, "Two");
             ar.Add(3, "Three");
+
+            Console.WriteLine("The index value of the key 3 is " + ar.IndexOfKey(3));
+            Console.Read();
         }
     }
 }
