@@ -641,7 +641,10 @@ namespace CollectionsInCsharp
             // Adding elements to the SortedList
             ar.Add(1, "One");
             ar.Add(2, "Two");
-            ar.Add(3, "Three");            
+            ar.Add(3, "Three");
+
+            Console.WriteLine("Does the SortedList contain the Value 3 " + ar.ContainsValue("Three"));
+            Console.Read();
         }
     }
 }
