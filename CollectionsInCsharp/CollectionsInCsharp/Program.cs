@@ -612,21 +612,27 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to show how to use the ContainsKey function
+    //// Program to show how to use the ContainsKey function
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the SortedList
+    //        SortedList ar = new SortedList();
+
+    //        // Adding elements to the SortedList
+    //        ar.Add(10, "Ten");
+    //        ar.Add(20, "Twenty");
+    //        ar.Add(30, "Thirty");
+
+    //        Console.WriteLine("Does the SortedList contain the key 30 " + ar.ContainsKey(30));
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to show how to use ContainsValue function
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the SortedList
-            SortedList ar = new SortedList();
 
-            // Adding elements to the SortedList
-            ar.Add(10, "Ten");
-            ar.Add(20, "Twenty");
-            ar.Add(30, "Thirty");
-
-            Console.WriteLine("Does the SortedList contain the key 30 " + ar.ContainsKey(30));
-            Console.Read();
-        }
     }
 }
