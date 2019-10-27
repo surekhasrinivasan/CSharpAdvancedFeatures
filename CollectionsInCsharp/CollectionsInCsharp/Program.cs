@@ -648,21 +648,27 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to show how to use the IndexOfKey function
+    //// Program to show how to use the IndexOfKey function
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the SortedList
+    //        SortedList ar = new SortedList();
+
+    //        // Adding the elements to the SortedList
+    //        ar.Add(1, "One");
+    //        ar.Add(2, "Two");
+    //        ar.Add(3, "Three");
+
+    //        Console.WriteLine("The index value of the key 3 is " + ar.IndexOfKey(3));
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to show how to use the IndexOfValue function 
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the SortedList
-            SortedList ar = new SortedList();
 
-            // Adding the elements to the SortedList
-            ar.Add(1, "One");
-            ar.Add(2, "Two");
-            ar.Add(3, "Three");
-
-            Console.WriteLine("The index value of the key 3 is " + ar.IndexOfKey(3));
-            Console.Read();
-        }
     }
 }
