@@ -679,6 +679,9 @@ namespace CollectionsInCsharp
             ar.Add(11, "Eleven");
             ar.Add(12, "Twelve");
             ar.Add(13, "Thirteen");
+
+            Console.WriteLine("The Index value of the key 12 is " + ar.IndexOfValue("Twelve"));
+            Console.Read();
         }
     }
 }
