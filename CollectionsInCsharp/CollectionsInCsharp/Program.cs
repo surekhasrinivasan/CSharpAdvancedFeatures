@@ -698,6 +698,11 @@ namespace CollectionsInCsharp
             ar.Add(2, "Two");
             ar.Add(3, "Three");
             ar.Add(4, "Four");
+
+            Console.WriteLine("Does the list contain the key 2 " + ar.ContainsKey(2));
+            ar.Remove(2);
+            Console.WriteLine("Does the list contain the key 2 " + ar.ContainsKey(2));
+            Console.Read();
         }
     }
 }
