@@ -688,6 +688,10 @@ namespace CollectionsInCsharp
     // Program showcases the use of Remove function
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the SortedList
+            SortedList ar = new SortedList();
+        }
     }
 }
