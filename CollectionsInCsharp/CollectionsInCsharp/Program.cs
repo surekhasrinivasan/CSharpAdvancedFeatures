@@ -666,22 +666,28 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program to show how to use the IndexOfValue function 
+    //// Program to show how to use the IndexOfValue function 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the SortedList
+    //        SortedList ar = new SortedList();
+
+    //        // Adding elements to the SortedList
+    //        ar.Add(10, "Ten");
+    //        ar.Add(11, "Eleven");
+    //        ar.Add(12, "Twelve");
+    //        ar.Add(13, "Thirteen");
+
+    //        Console.WriteLine("The Index value of the key 12 is " + ar.IndexOfValue("Twelve"));
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program showcases the use of Remove function
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the SortedList
-            SortedList ar = new SortedList();
 
-            // Adding elements to the SortedList
-            ar.Add(10, "Ten");
-            ar.Add(11, "Eleven");
-            ar.Add(12, "Twelve");
-            ar.Add(13, "Thirteen");
-
-            Console.WriteLine("The Index value of the key 12 is " + ar.IndexOfValue("Twelve"));
-            Console.Read();
-        }
     }
 }
