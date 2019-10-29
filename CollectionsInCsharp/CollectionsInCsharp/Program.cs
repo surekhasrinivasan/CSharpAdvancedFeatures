@@ -685,24 +685,30 @@ namespace CollectionsInCsharp
     //    }
     //}
 
-    // Program showcases the use of Remove function
+    //// Program showcases the use of Remove function
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // Defining the SortedList
+    //        SortedList ar = new SortedList();
+
+    //        // Adding the elements to the SortedList
+    //        ar.Add(1, "One");
+    //        ar.Add(2, "Two");
+    //        ar.Add(3, "Three");
+    //        ar.Add(4, "Four");
+
+    //        Console.WriteLine("Does the list contain the key 2 " + ar.ContainsKey(2));
+    //        ar.Remove(2);
+    //        Console.WriteLine("Does the list contain the key 2 " + ar.ContainsKey(2));
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to show how to use RemoveAt Function
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Defining the SortedList
-            SortedList ar = new SortedList();
 
-            // Adding the elements to the SortedList
-            ar.Add(1, "One");
-            ar.Add(2, "Two");
-            ar.Add(3, "Three");
-            ar.Add(4, "Four");
-
-            Console.WriteLine("Does the list contain the key 2 " + ar.ContainsKey(2));
-            ar.Remove(2);
-            Console.WriteLine("Does the list contain the key 2 " + ar.ContainsKey(2));
-            Console.Read();
-        }
     }
 }
