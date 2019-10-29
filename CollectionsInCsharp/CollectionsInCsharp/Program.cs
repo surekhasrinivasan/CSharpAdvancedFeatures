@@ -709,6 +709,10 @@ namespace CollectionsInCsharp
     // Program to show how to use RemoveAt Function
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            // Defining the SortedList
+            SortedList ar = new SortedList();
+        }
     }
 }
