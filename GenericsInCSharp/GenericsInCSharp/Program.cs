@@ -15,6 +15,12 @@ namespace GenericsInCSharp
             Console.WriteLine("The value is " + i);
         }
 
+        // Display method for double numbers
+        public static void Add(double i)
+        {
+            Console.WriteLine("The value is " + i);
+        }
+
         static void Main(string[] args)
         {
         }
