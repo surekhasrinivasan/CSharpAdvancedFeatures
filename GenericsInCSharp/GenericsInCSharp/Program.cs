@@ -10,19 +10,22 @@ namespace GenericsInCSharp
     class Program
     {
         // Display method for Integers
-        public static void Add(int i)
+        public static void Display(int i)
         {
             Console.WriteLine("The value is " + i);
         }
 
         // Display method for double numbers
-        public static void Add(double i)
+        public static void Display(double i)
         {
             Console.WriteLine("The value is " + i);
         }
 
         static void Main(string[] args)
         {
+            Display(1);
+            Display(1.1);
+            Console.Read();
         }
     }
 }
