@@ -32,6 +32,10 @@ namespace GenericsInCSharp
     // Program shows how to use the generic data type
     class Program
     {
-
+        // Generic Display method
+        public static void Display<T>(T i)
+        {
+            Console.WriteLine("The value is " + i);
+        }
     }
 }
