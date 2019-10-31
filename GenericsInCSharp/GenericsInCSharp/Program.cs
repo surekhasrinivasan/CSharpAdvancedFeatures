@@ -43,6 +43,7 @@ namespace GenericsInCSharp
         {
             // calling the generic with the data type 
             Display<int>(1);
+            Display<double>(1.5);
 
             Console.Read();
         }
