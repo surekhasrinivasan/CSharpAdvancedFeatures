@@ -37,5 +37,14 @@ namespace GenericsInCSharp
         {
             Console.WriteLine("The value is " + i);
         }
+
+        // Main function 
+        static void Main(string[] args)
+        {
+            // calling the generic with the data type 
+            Display<int>(1);
+
+            Console.Read();
+        }
     }
 }
