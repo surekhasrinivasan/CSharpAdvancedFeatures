@@ -52,6 +52,14 @@ namespace GenericsInCSharp
     // Program below showcases the way to use the generic class
     class Program
     {
-
+        // Generic class
+        public class GenericSet<T>
+        {
+            private T[] array;
+            public GenericSet(int size)
+            {
+                array = new T[size + 1];
+            }
+        }
     }
 }
