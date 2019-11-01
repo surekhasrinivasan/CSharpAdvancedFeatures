@@ -29,23 +29,29 @@ namespace GenericsInCSharp
     //    }
     //}
 
-    // Program shows how to use the generic data type
+    //// Program shows how to use the generic data type
+    //class Program
+    //{
+    //    // Generic Display method
+    //    public static void Display<T>(T i)
+    //    {
+    //        Console.WriteLine("The value is " + i);
+    //    }
+
+    //    // Main function 
+    //    static void Main(string[] args)
+    //    {
+    //        // calling the generic with the data type 
+    //        Display<int>(1);
+    //        Display<double>(1.5);
+
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program below showcases the way to use the generic class
     class Program
     {
-        // Generic Display method
-        public static void Display<T>(T i)
-        {
-            Console.WriteLine("The value is " + i);
-        }
 
-        // Main function 
-        static void Main(string[] args)
-        {
-            // calling the generic with the data type 
-            Display<int>(1);
-            Display<double>(1.5);
-
-            Console.Read();
-        }
     }
 }
