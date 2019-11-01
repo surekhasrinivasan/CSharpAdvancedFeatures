@@ -71,6 +71,15 @@ namespace GenericsInCSharp
     }
     class Program
     {
+        static void Main(string[] args)
+        {
+            GenericSet<int> gn = new GenericSet<int>(2);
+            gn.setItem(1, 1);
+            gn.setItem(2, 2);
 
+            Console.WriteLine("The first item is " + gn.getItem(1));
+            Console.WriteLine("The second item is " + gn.getItem(2));
+            Console.Read();
+        }
     }
 }
