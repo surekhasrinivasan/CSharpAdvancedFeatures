@@ -7,4 +7,7 @@ using System.Threading.Tasks;
 namespace EventsInCSharp
 {
     // Program to showcase the way to work with Events
+
+    public delegate string newDel(string str);  
+
 }
