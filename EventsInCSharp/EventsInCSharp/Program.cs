@@ -20,7 +20,17 @@ namespace EventsInCSharp
 
         public string mymethod(string var)
         {
-            return "Hello" + var;
+            return "Hello " + var;
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            EventClass evt = new EventClass();
+            Console.WriteLine("" +evt.mymethod("World!"));
+            Console.Read();
         }
     }
 }
