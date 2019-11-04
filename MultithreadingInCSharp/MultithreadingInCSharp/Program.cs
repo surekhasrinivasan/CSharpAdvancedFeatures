@@ -21,6 +21,14 @@ namespace MultithreadingInCSharp
         {
             // Making a reference to the ThreadModule
             ThreadStart start = new ThreadStart(ThreadModule);
+
+            // Creating a new thread
+            Thread thd = new Thread(start);
+
+            // Starting the thread
+            thd.Start();
+
+            Console.Read();
         }
     }
     
