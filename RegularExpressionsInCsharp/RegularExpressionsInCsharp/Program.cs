@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace RegularExpressionsInCsharp
@@ -13,6 +14,18 @@ namespace RegularExpressionsInCsharp
         {
             string src = "Hello World!";
             string pattern = @"Hello";
+
+            Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
+
+            MatchCollection matches = rgx.Matches(src);
+            if(matches.Count > 0)
+            {
+                foreach(Match m in matches)
+                {
+                    Console.WriteLine(m);
+                }
+            }
+            Console.Read();
         }
     }
 }
