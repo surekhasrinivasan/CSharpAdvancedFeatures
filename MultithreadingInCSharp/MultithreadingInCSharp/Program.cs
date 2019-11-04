@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace MultithreadingInCSharp
@@ -13,6 +14,13 @@ namespace MultithreadingInCSharp
         public static void ThreadModule()
         {
             Console.WriteLine("The thread is starting");
+        }
+
+        // Main function
+        static void Main(string[] args)
+        {
+            // Making a reference to the ThreadModule
+            ThreadStart start = new ThreadStart(ThreadModule);
         }
     }
     
