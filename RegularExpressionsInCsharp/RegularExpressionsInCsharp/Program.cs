@@ -12,6 +12,7 @@ namespace RegularExpressionsInCsharp
         static void Main(string[] args)
         {
             string src = "Hello World!";
+            string pattern = @"Hello";
         }
     }
 }
