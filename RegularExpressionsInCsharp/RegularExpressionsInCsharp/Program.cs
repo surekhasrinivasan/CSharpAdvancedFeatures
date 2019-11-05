@@ -32,6 +32,9 @@ namespace RegularExpressionsInCsharp
     // Another Program to showcase how to use regular expressions
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            string input = "Let's have the number of 2000";
+        }
     }
 }
