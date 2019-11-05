@@ -37,6 +37,9 @@ namespace RegularExpressionsInCsharp
             string input = "Let's have the number of 2000";
 
             Match match = Regex.Match(input, @"\d+");
+
+            Console.WriteLine("The number in the string is " + match.Value);
+            Console.Read();
         }
     }
 }
