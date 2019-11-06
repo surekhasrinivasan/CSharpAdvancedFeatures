@@ -51,6 +51,11 @@ namespace RegularExpressionsInCsharp
             string input = "Let's have the number of 2000";
 
             Match match = Regex.Match(input, @"\d+");
+
+            Console.WriteLine("The number in the string is " + match.Value);
+            Console.WriteLine("The length of the derived value is " + match.Length);
+            Console.WriteLine("The index in the string where the value was found is " + match.Index);
+            Console.Read();
         }
     }
 }
