@@ -46,6 +46,9 @@ namespace RegularExpressionsInCsharp
     // Program to showcase how to use regular expressions with length and index property
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            string input = "Let's have the number of 2000";
+        }
     }
 }
