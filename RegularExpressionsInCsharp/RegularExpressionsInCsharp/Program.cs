@@ -29,17 +29,23 @@ namespace RegularExpressionsInCsharp
     //    }
     //}
 
-    // Another Program to showcase how to use regular expressions
+    //// Another Program to showcase how to use regular expressions
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        string input = "Let's have the number of 2000";
+
+    //        Match match = Regex.Match(input, @"\d+");
+
+    //        Console.WriteLine("The number in the string is " + match.Value);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to showcase how to use regular expressions with length and index property
     class Program
     {
-        static void Main(string[] args)
-        {
-            string input = "Let's have the number of 2000";
 
-            Match match = Regex.Match(input, @"\d+");
-
-            Console.WriteLine("The number in the string is " + match.Value);
-            Console.Read();
-        }
     }
 }
